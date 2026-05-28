@@ -1,0 +1,16 @@
+{
+  "data": {
+    "categories": {
+      "items": [
+        {
+          "breadcrumbs": null,
+          "uid": "Mjg4OQ==",
+          "name": "Sofa",
+          "url_path": "sofa",
+          "__typename": "CategoryTree"
+        }
+      ],
+      "__typename": "CategoryResult"
+    }
+  }
+}

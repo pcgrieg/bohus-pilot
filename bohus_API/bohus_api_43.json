@@ -1,0 +1,175 @@
+{
+  "data": {
+    "customAttributeMetadata": {
+      "items": [
+        {
+          "attribute_code": "color",
+          "attribute_options": [
+            {
+              "value": "81801",
+              "label": "Beige/natur",
+              "swatch_data": {
+                "type": "1",
+                "value": "#e1d5c0",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "81963",
+              "label": "Blå",
+              "swatch_data": {
+                "type": "1",
+                "value": "#105484",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "81837",
+              "label": "Svart",
+              "swatch_data": {
+                "type": "1",
+                "value": "#000000",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "81831",
+              "label": "Hvit",
+              "swatch_data": {
+                "type": "1",
+                "value": "#ffffff",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "81819",
+              "label": "Grå",
+              "swatch_data": {
+                "type": "1",
+                "value": "#7b7b7b",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "88053",
+              "label": "Oransje",
+              "swatch_data": {
+                "type": "1",
+                "value": "#e89631",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "90165",
+              "label": "Lilla",
+              "swatch_data": {
+                "type": "1",
+                "value": "#895aa2",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "81855",
+              "label": "Grønn",
+              "swatch_data": {
+                "type": "1",
+                "value": "#426845",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "82215",
+              "label": "Sølv",
+              "swatch_data": {
+                "type": "1",
+                "value": "#c0c0c0",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "83676",
+              "label": "Rød",
+              "swatch_data": {
+                "type": "1",
+                "value": "#bc230f",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "85080",
+              "label": "Gull",
+              "swatch_data": {
+                "type": "1",
+                "value": "#dcc266",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "85533",
+              "label": "Rosa",
+              "swatch_data": {
+                "type": "1",
+                "value": "#f7cbc3",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "81945",
+              "label": "Brun",
+              "swatch_data": {
+                "type": "1",
+                "value": "#694128",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "82164",
+              "label": "Gul",
+              "swatch_data": {
+                "type": "1",
+                "value": "#f5ea4f",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "90090",
+              "label": "Klar",
+              "swatch_data": {
+                "type": "1",
+                "value": "#f6f6f6",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            },
+            {
+              "value": "94812",
+              "label": "Gjennomsiktig",
+              "swatch_data": {
+                "type": "1",
+                "value": "#ffffff",
+                "__typename": "SwatchData"
+              },
+              "__typename": "AttributeOption"
+            }
+          ],
+          "__typename": "Attribute"
+        }
+      ],
+      "__typename": "CustomAttributeMetadata"
+    }
+  }
+}

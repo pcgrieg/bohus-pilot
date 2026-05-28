@@ -1,0 +1,10 @@
+{
+  "data": {
+    "algoliaStockStatusFilter": {
+      "in_stock": "stock_status.4013:IN_STOCK OR stock_status.4014:IN_STOCK OR stock_status.4012:IN_STOCK",
+      "in_stock_online": "( is_interior:Yes OR stock_status.4013:IN_STOCK OR stock_status.4013:AVAILABLE_FOR_ORDER ) AND ( is_interior:No OR stock_status.3000:IN_STOCK OR stock_status.3000:AVAILABLE_FOR_ORDER ) AND ( stock_status.3000:IN_STOCK OR stock_status.3000:AVAILABLE_FOR_ORDER OR stock_status.4013:IN_STOCK OR stock_status.4013:AVAILABLE_FOR_ORDER )",
+      "on_display": "on_display:4013 OR on_display:4014 OR on_display:4012",
+      "__typename": "AlgoliaStockStatusFilter"
+    }
+  }
+}

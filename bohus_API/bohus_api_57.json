@@ -1,0 +1,36 @@
+{
+  "signalRUrl": "https://magicwidgetapi.socialboards.com/v24",
+  "apiVersion": "24",
+  "isWidgetHidden": true,
+  "isDefault": true,
+  "isChatEnabled": true,
+  "isFaqEnabled": true,
+  "isContactUsFormEnabled": true,
+  "isWelcomePageDisabled": false,
+  "startPageModule": 1,
+  "animationDirection": 3,
+  "id": 968,
+  "communityId": 2019,
+  "language": 1,
+  "launcher": {
+    "launchIconUrl": "",
+    "dismissIconUrl": "",
+    "height": null,
+    "width": null,
+    "enabled": true,
+    "usePrimaryColor": false,
+    "isAutoOpeningEnabled": false,
+    "isHidingAllowed": false
+  },
+  "name": "Bohus",
+  "position": 1,
+  "primaryColor": "#353539",
+  "backgroundColor": "#fff",
+  "logo": {
+    "height": null,
+    "url": "",
+    "width": 250
+  },
+  "isShowLogoInHeader": false,
+  "isWidgetHiddenWhenChatClosed": true
+}

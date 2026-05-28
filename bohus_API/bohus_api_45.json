@@ -1,0 +1,3243 @@
+{
+  "data": {
+    "products": {
+      "items": [
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "expiring",
+          "pimcore_id": "1832936",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 293178,
+          "uid": "MjkzMTc4",
+          "name": "Applewood speil Ø90",
+          "sku": "317181",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1773137401/Leverandører/Interstil/Produkter/APPLEWOOD/image-thumb__602496__PLP-Product/317181 - Applewood speil Ø90 m-ramme brun - 4.JPG",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "applewood-speil-o90-1",
+          "url_key_master_category": "interior/speil/rundt-speil/applewood-speil-o90-1",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 690,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 2299,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Outlet",
+            "message_code": "11",
+            "group_name": null,
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 70,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-12-31 22:59:59",
+            "group_name_prefix": null,
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1773137401/Leverandører/Interstil/Produkter/APPLEWOOD/image-thumb__602496__Product-option-selector/317181 - Applewood speil Ø90 m-ramme brun - 4.JPG",
+                  "option_id": "Brun",
+                  "sku": "317181",
+                  "swatch_data": null,
+                  "url_key": "applewood-speil-o90-1",
+                  "url_key_master_category": "interior/speil/rundt-speil/applewood-speil-o90-1",
+                  "value": "Brun",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1747636685/Leverandører/Interstil/Produkter/APPLEWOOD/image-thumb__345556__Product-option-selector/317440 - Applewood speil Ø90 m-ramme svart - 2.JPG",
+                  "option_id": "Svart",
+                  "sku": "317440",
+                  "swatch_data": null,
+                  "url_key": "applewood-speil-o90",
+                  "url_key_master_category": "interior/speil/rundt-speil/applewood-speil-o90",
+                  "value": "Svart",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_outlet_1.svg",
+              "title": "<strong>Outlet</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1820802",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 292899,
+          "uid": "MjkyODk5",
+          "name": "Ona teppe 160x230",
+          "sku": "314941",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1742469988/Leverandører/Inhouse Group/Produkter/ONA/image-thumb__342032__PLP-Product/314941 - Ona teppe 160x230 100- ull hvit beige - 3.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "ona-teppe-160x230",
+          "url_key_master_category": "tepper/gulvteppe/ullteppe/ona-teppe-160x230",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 1649,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 3299,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": "serie ONA",
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 50,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": "50% rabatt på",
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1742469868/Leverandører/Inhouse Group/Produkter/ONA/image-thumb__342028__Product-option-selector/314945 - Ona teppe 160x230 100- ull brun - 3.jpg",
+                  "option_id": "Brun",
+                  "sku": "314945",
+                  "swatch_data": null,
+                  "url_key": "ona-teppe-160x230-1",
+                  "url_key_master_category": "tepper/gulvteppe/ullteppe/ona-teppe-160x230-1",
+                  "value": "Brun",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1742469988/Leverandører/Inhouse Group/Produkter/ONA/image-thumb__342032__Product-option-selector/314941 - Ona teppe 160x230 100- ull hvit beige - 3.jpg",
+                  "option_id": "Hvit - (Hvit beige)",
+                  "sku": "314941",
+                  "swatch_data": null,
+                  "url_key": "ona-teppe-160x230",
+                  "url_key_master_category": "tepper/gulvteppe/ullteppe/ona-teppe-160x230",
+                  "value": "Hvit - (Hvit beige)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "size",
+              "label": "Mål",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "81846",
+                  "sku": "314941",
+                  "swatch_data": null,
+                  "url_key": "ona-teppe-160x230",
+                  "url_key_master_category": "tepper/gulvteppe/ullteppe/ona-teppe-160x230",
+                  "value": "160x230",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "83754",
+                  "sku": "314942",
+                  "swatch_data": null,
+                  "url_key": "ona-teppe-200x290",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/ona-teppe-200x290",
+                  "value": "200x290",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1849285",
+          "amBrand": {
+            "label": "Sindig",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Sindig",
+            "__typename": "BrandInfo"
+          },
+          "id": 275727,
+          "uid": "Mjc1NzI3",
+          "name": "Swop gulvlampe Ø45",
+          "sku": "318660",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1753788726/Leverandører/K&A International/Produkter/SWOP/image-thumb__349674__PLP-Product/318660 - Swop gulvlampe H150 E27 metall brun inkl. skjerm - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "swop-gulvlampe-h150",
+          "url_key_master_category": "lamper/gulvlampe/swop-gulvlampe-h150",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 3499,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 3499,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "3 for 2",
+            "message_code": "22",
+            "group_name": "3 for 2 på alle <a href=\"/interior\">interiørvarer</a> til ordinærpris*",
+            "group_text": "*Gjelder ikke Fast Lav Pris. Kan ikke kombineres med andre tilbud.",
+            "countdown_end_date": null,
+            "price_communication_code": null,
+            "price_communication": null,
+            "sale_price_effective_date": null,
+            "group_name_prefix": null,
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_price_endorser_3for2_400x400pix_solid_rgb.png",
+              "title": "<strong>3 for 2</strong>",
+              "color": "#69797a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "expiring",
+          "pimcore_id": "1834515",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 263805,
+          "uid": "MjYzODA1",
+          "name": "Basoon sidebord Ø45",
+          "sku": "317438",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1753790527/Leverandører/Interstil/Produkter/BASOON/image-thumb__349684__PLP-Product/317438 - Basoon sidebord Ø45 H50 lakkert askefiner brun - 3.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "basoon-sidebord-o45-1",
+          "url_key_master_category": "bord/sidebord/basoon-sidebord-o45-1",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 799,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 799,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1719384488/Leverandører/Interstil/Produkter/BASOON/image-thumb__320778__Product-option-selector/298590 - Basoon sidebord Ø45 H50 lakkert askefiner natur - 1.jpg",
+                  "option_id": "Beige/natur - (Natur)",
+                  "sku": "298590",
+                  "swatch_data": null,
+                  "url_key": "basoon-sidebord-o45",
+                  "url_key_master_category": "bord/sidebord/basoon-sidebord-o45",
+                  "value": "Beige/natur - (Natur)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1753790527/Leverandører/Interstil/Produkter/BASOON/image-thumb__349684__Product-option-selector/317438 - Basoon sidebord Ø45 H50 lakkert askefiner brun - 3.jpg",
+                  "option_id": "Brun",
+                  "sku": "317438",
+                  "swatch_data": null,
+                  "url_key": "basoon-sidebord-o45-1",
+                  "url_key_master_category": "bord/sidebord/basoon-sidebord-o45-1",
+                  "value": "Brun",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "size",
+              "label": "Mål",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "130530",
+                  "sku": "317437",
+                  "swatch_data": null,
+                  "url_key": "basoon-sidebord-o38-5-1",
+                  "url_key_master_category": "bord/sidebord/basoon-sidebord-o38-5-1",
+                  "value": "Ø38.5",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "85041",
+                  "sku": "317438",
+                  "swatch_data": null,
+                  "url_key": "basoon-sidebord-o45-1",
+                  "url_key_master_category": "bord/sidebord/basoon-sidebord-o45-1",
+                  "value": "Ø45",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1845658",
+          "amBrand": {
+            "label": "Scapa",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Scapa",
+            "__typename": "BrandInfo"
+          },
+          "id": 262713,
+          "uid": "MjYyNzEz",
+          "name": "Noelle hjørnesofa med sjeselong",
+          "sku": "318405",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1754639513/Leverandører/Scapa UAB/Produkter/NOELLE/image-thumb__350681__PLP-Product/318405 - Noelle hjørnesofa med sjeselong oppsett 11 høyre Hevre 0980 Light beige med ben 631 hvitoljet 16cm - 1.png",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "noelle-hjornesofa-med-sjeselong-3",
+          "url_key_master_category": "sofa/hjornesofa/noelle-hjornesofa-med-sjeselong-3",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 77170,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 77170,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1762160891/Leverandører/Scapa UAB/Produkter/NOELLE/image-thumb__593856__Product-option-selector/318403 - Noelle hjørnesofa med sjeselong oppsett 11 høyre Hevre 0982 Blue med ben 629 svart 16cm - 1.png",
+                  "option_id": "Blå - (Hevre 0982 Blue)",
+                  "sku": "318403",
+                  "swatch_data": null,
+                  "url_key": "noelle-hjornesofa-med-sjeselong-1",
+                  "url_key_master_category": "sofa/hjornesofa/noelle-hjornesofa-med-sjeselong-1",
+                  "value": "Blå - (Hevre 0982 Blue)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754639513/Leverandører/Scapa UAB/Produkter/NOELLE/image-thumb__350681__Product-option-selector/318405 - Noelle hjørnesofa med sjeselong oppsett 11 høyre Hevre 0980 Light beige med ben 631 hvitoljet 16cm - 1.png",
+                  "option_id": "Grå - (Hevre 0980 Light beige)",
+                  "sku": "318405",
+                  "swatch_data": null,
+                  "url_key": "noelle-hjornesofa-med-sjeselong-3",
+                  "url_key_master_category": "sofa/hjornesofa/noelle-hjornesofa-med-sjeselong-3",
+                  "value": "Grå - (Hevre 0980 Light beige)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1762160946/Leverandører/Scapa UAB/Produkter/NOELLE/image-thumb__593854__Product-option-selector/318404 - Noelle hjørnesofa med sjeselong oppsett 11 høyre Milan 4081 Grey med ben 627 smoked 16cm - 1.png",
+                  "option_id": "Grå - (Milan 4081 Grey)",
+                  "sku": "318404",
+                  "swatch_data": null,
+                  "url_key": "noelle-hjornesofa-med-sjeselong-2",
+                  "url_key_master_category": "sofa/hjornesofa/noelle-hjornesofa-med-sjeselong-2",
+                  "value": "Grå - (Milan 4081 Grey)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1762160886/Leverandører/Scapa UAB/Produkter/NOELLE/image-thumb__593852__Product-option-selector/318402 - Noelle hjørnesofa med sjeselong oppsett 11 høyre Amra 1614 Turtle med ben 631 hvitoljet 16cm - 1.png",
+                  "option_id": "Grønn - (Amra 1614 Turtle)",
+                  "sku": "318402",
+                  "swatch_data": null,
+                  "url_key": "noelle-hjornesofa-med-sjeselong",
+                  "url_key_master_category": "sofa/hjornesofa/noelle-hjornesofa-med-sjeselong",
+                  "value": "Grønn - (Amra 1614 Turtle)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "sofas_setup",
+              "label": "Oppsett",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "2181",
+                  "sku": "318405",
+                  "swatch_data": null,
+                  "url_key": "noelle-hjornesofa-med-sjeselong-3",
+                  "url_key_master_category": "sofa/hjornesofa/noelle-hjornesofa-med-sjeselong-3",
+                  "value": "Høyre",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "2184",
+                  "sku": "318408",
+                  "swatch_data": null,
+                  "url_key": "noelle-hjornesofa-med-sjeselong-6",
+                  "url_key_master_category": "sofa/hjornesofa/noelle-hjornesofa-med-sjeselong-6",
+                  "value": "Venstre",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1838830",
+          "amBrand": {
+            "label": "Vilmers",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Vilmers",
+            "__typename": "BrandInfo"
+          },
+          "id": 262314,
+          "uid": "MjYyMzE0",
+          "name": "Nordic 3 seter sofa XL",
+          "sku": "317941",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1747387983/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__345098__PLP-Product/317941 - Nordic 3 seter sofa XL arm duo Lavastone Linen med skråben hvitoljet eik 16cm - 6.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "nordic-3-seter-sofa-xl-8",
+          "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-8",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 31998,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 31998,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749818163/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__345089__Product-option-selector/318493 - Nordic 3 seter sofa XL 2 sitteputer arm duo Dolomite Solitary star med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Beige/natur - (Dolomite Solitary Star)",
+                  "sku": "318493",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-11",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-11",
+                  "value": "Beige/natur - (Dolomite Solitary Star)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1747387983/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__345098__Product-option-selector/317941 - Nordic 3 seter sofa XL arm duo Lavastone Linen med skråben hvitoljet eik 16cm - 6.jpg",
+                  "option_id": "Beige/natur - (Lavastone Linen)",
+                  "sku": "317941",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-8",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-8",
+                  "value": "Beige/natur - (Lavastone Linen)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749818247/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346839__Product-option-selector/318495 - Nordic 3 seter sofa XL 2 sitteputer arm duo Hafnon Teal med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Blå - (Hafnon Teal)",
+                  "sku": "318495",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-13",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-13",
+                  "value": "Blå - (Hafnon Teal)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749818043/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__345083__Product-option-selector/318491 - Nordic 3 seter sofa XL 2 sitteputer arm duo Dolomite Driftwood med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Brun - (Dolomite Driftwood)",
+                  "sku": "318491",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-9",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-9",
+                  "value": "Brun - (Dolomite Driftwood)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749818343/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__345095__Product-option-selector/318496 - Nordic 3 seter sofa XL 2 sitteputer arm duo Lavastone Curry med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Brun - (Lavastone Curry)",
+                  "sku": "318496",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-14",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-14",
+                  "value": "Brun - (Lavastone Curry)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749818357/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346993__Product-option-selector/318497 - Nordic 3 seter sofa XL 2 sitteputer arm duo Lavastone Sepia med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Brun - (Lavastone Sepia)",
+                  "sku": "318497",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-15",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-15",
+                  "value": "Brun - (Lavastone Sepia)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754896023/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__347433__Product-option-selector/318498 - Nordic 3 seter sofa XL 2 sitteputer arm duo Tin Cacao med konet skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Brun - (Tin Cacao)",
+                  "sku": "318498",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-16",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-16",
+                  "value": "Brun - (Tin Cacao)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749818223/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__345091__Product-option-selector/318494 - Nordic 3 seter sofa XL 2 sitteputer arm duo Hafnon Linen med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Grå - (Hafnon Linen)",
+                  "sku": "318494",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-12",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-12",
+                  "value": "Grå - (Hafnon Linen)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749818403/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__345101__Product-option-selector/318499 - Nordic 3 seter sofa XL 2 sitteputer arm duo Tin Steel grey med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Grå - (Tin Steel grey)",
+                  "sku": "318499",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-17",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-17",
+                  "value": "Grå - (Tin Steel grey)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749818054/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__345087__Product-option-selector/318492 - Nordic 3 seter sofa XL 2 sitteputer arm duo Dolomite Myrtle med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Grønn - (Dolomite Myrtle)",
+                  "sku": "318492",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-10",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-10",
+                  "value": "Grønn - (Dolomite Myrtle)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1757690954/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__593092__Product-option-selector/318500 - Nordic 3 seter sofa XL 2 sitteputer arm duo Tin Turtle med konet skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Grønn - (Tin Turtle)",
+                  "sku": "318500",
+                  "swatch_data": null,
+                  "url_key": "nordic-3-seter-sofa-xl-18",
+                  "url_key_master_category": "sofa/3-seter/nordic-3-seter-sofa-xl-18",
+                  "value": "Grønn - (Tin Turtle)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1825126",
+          "amBrand": {
+            "label": "Sindig",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Sindig",
+            "__typename": "BrandInfo"
+          },
+          "id": 262275,
+          "uid": "MjYyMjc1",
+          "name": "Lund gulvlampe Ø40",
+          "sku": "316888",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1749131468/Leverandører/Nordic Season ASIA Co. Ltd/Produkter/LUND/image-thumb__346374__PLP-Product/316888 - Lund gulvlampe H90 E27 lin beige - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "lund-gulvlampe-h90",
+          "url_key_master_category": "lamper/gulvlampe/lund-gulvlampe-h90",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 1599,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 1599,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "3 for 2",
+            "message_code": "22",
+            "group_name": "3 for 2 på alle <a href=\"/interior\">interiørvarer</a> til ordinærpris*",
+            "group_text": "*Gjelder ikke Fast Lav Pris. Kan ikke kombineres med andre tilbud.",
+            "countdown_end_date": null,
+            "price_communication_code": null,
+            "price_communication": null,
+            "sale_price_effective_date": null,
+            "group_name_prefix": null,
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_price_endorser_3for2_400x400pix_solid_rgb.png",
+              "title": "<strong>3 for 2</strong>",
+              "color": "#69797a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1821259",
+          "amBrand": {
+            "label": "Sindig",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Sindig",
+            "__typename": "BrandInfo"
+          },
+          "id": 261741,
+          "uid": "MjYxNzQx",
+          "name": "Dani puff med oppbevaring Ø55",
+          "sku": "316738",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1745828859/Leverandører/Nordic Furniture Group AS/Produkter/DANI/image-thumb__344015__PLP-Product/316738 - Dani puff med oppbevaring Ø55 Teddy Gråbrun - 3.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "dani-puff-med-oppbevaring-o55-1",
+          "url_key_master_category": "stoler/puff/dani-puff-med-oppbevaring-o55-1",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 1379,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 2299,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": "alle puffer*",
+            "group_text": "*Kan ikke kombineres med andre kampanjer",
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 40,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": "40% rabatt på",
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1745828859/Leverandører/Nordic Furniture Group AS/Produkter/DANI/image-thumb__344015__Product-option-selector/316738 - Dani puff med oppbevaring Ø55 Teddy Gråbrun - 3.jpg",
+                  "option_id": "Brun - (Gråbrun)",
+                  "sku": "316738",
+                  "swatch_data": null,
+                  "url_key": "dani-puff-med-oppbevaring-o55-1",
+                  "url_key_master_category": "stoler/puff/dani-puff-med-oppbevaring-o55-1",
+                  "value": "Brun - (Gråbrun)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1745835453/Leverandører/Nordic Furniture Group AS/Produkter/DANI/image-thumb__344010__Product-option-selector/316737 - Dani puff med oppbevaring Ø41 Teddy Grønn - 4.jpg",
+                  "option_id": "Grønn",
+                  "sku": "316737",
+                  "swatch_data": null,
+                  "url_key": "dani-puff-med-oppbevaring-o41",
+                  "url_key_master_category": "stoler/puff/dani-puff-med-oppbevaring-o41",
+                  "value": "Grønn",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1752147663/Leverandører/Nordic Furniture Group AS/Produkter/DANI/image-thumb__349601__Product-option-selector/316739 - Dani puff med oppbevaring Ø55 Teddy Hvit - 3.JPG",
+                  "option_id": "Hvit",
+                  "sku": "316739",
+                  "swatch_data": null,
+                  "url_key": "dani-puff-med-oppbevaring-o55",
+                  "url_key_master_category": "stoler/puff/dani-puff-med-oppbevaring-o55",
+                  "value": "Hvit",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "size",
+              "label": "Mål",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "85476",
+                  "sku": "280420",
+                  "swatch_data": null,
+                  "url_key": "dani-puff-o41-1",
+                  "url_key_master_category": "stoler/puff/dani-puff-o41-1",
+                  "value": "Ø41",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "87840",
+                  "sku": "316738",
+                  "swatch_data": null,
+                  "url_key": "dani-puff-med-oppbevaring-o55-1",
+                  "url_key_master_category": "stoler/puff/dani-puff-med-oppbevaring-o55-1",
+                  "value": "Ø55",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1837171",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 261684,
+          "uid": "MjYxNjg0",
+          "name": "Asgeir sofabord 80x80",
+          "sku": "318243",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1756198989/Leverandører/Consilimo AS/Produkter/ASGEIR/image-thumb__351660__PLP-Product/318243 - Asgeir sofabord Ø80 H40 cm hvitoljet eik heltre - 3.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "asgeir-sofabord-o80",
+          "url_key_master_category": "bord/sofabord/asgeir-sofabord-o80",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 4399,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 5499,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": null,
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 20,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": null,
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1835121",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 261402,
+          "uid": "MjYxNDAy",
+          "name": "Luka 3 seter sofa XL",
+          "sku": "317229",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1754462165/Leverandører/Dominari Grupe UAB/Produkter/LUKA/image-thumb__346870__PLP-Product/317229 - Luka 3 seter sofa XL med slipcover Palita 10 Mørk brun med ben svart 4cm - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "luka-3-seter-sofa-xl",
+          "url_key_master_category": "sofa/3-seter/luka-3-seter-sofa-xl",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 18499,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 28460,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": "LUKA-serien i tekstil Palita",
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 35,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": "35% rabatt på",
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1751030526/Leverandører/Dominari Grupe UAB/Produkter/LUKA/image-thumb__348047__Product-option-selector/319676 - Luka 3 seter sofa XL Slipcover Palita 13 Krem med treben svart 4cm - 1.jpg",
+                  "option_id": "Beige/natur - (Palita 13 Krem)",
+                  "sku": "319676",
+                  "swatch_data": null,
+                  "url_key": "luka-3-seter-sofa-xl-4",
+                  "url_key_master_category": "sofa/3-seter/luka-3-seter-sofa-xl-4",
+                  "value": "Beige/natur - (Palita 13 Krem)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754462165/Leverandører/Dominari Grupe UAB/Produkter/LUKA/image-thumb__346870__Product-option-selector/317229 - Luka 3 seter sofa XL med slipcover Palita 10 Mørk brun med ben svart 4cm - 1.jpg",
+                  "option_id": "Brun - (Palita 10 Mørk brun)",
+                  "sku": "317229",
+                  "swatch_data": null,
+                  "url_key": "luka-3-seter-sofa-xl",
+                  "url_key_master_category": "sofa/3-seter/luka-3-seter-sofa-xl",
+                  "value": "Brun - (Palita 10 Mørk brun)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1751030546/Leverandører/Dominari Grupe UAB/Produkter/LUKA/image-thumb__348049__Product-option-selector/319677 - Luka 3 seter sofa XL Slipcover Palita 24 Muldvarp med treben svart 4cm - 1.jpg",
+                  "option_id": "Brun - (Palita 24 Muldvarp)",
+                  "sku": "319677",
+                  "swatch_data": null,
+                  "url_key": "luka-3-seter-sofa-xl-5",
+                  "url_key_master_category": "sofa/3-seter/luka-3-seter-sofa-xl-5",
+                  "value": "Brun - (Palita 24 Muldvarp)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1711029523/Leverandører/Dominari Grupe UAB/Produkter/LUKA/image-thumb__308539__Product-option-selector/298529 - Luka 3 seter sofa XL East Taupe med runde ben svart 4cm - 1.jpg",
+                  "option_id": "Grå - (East R1T8 Taupe)",
+                  "sku": "298529",
+                  "swatch_data": null,
+                  "url_key": "luka-3-seter-sofa",
+                  "url_key_master_category": "sofa/3-seter/luka-3-seter-sofa",
+                  "value": "Grå - (East R1T8 Taupe)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "sofas_slipcoverclothing",
+              "label": "Avtagbart trekk",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "128661",
+                  "sku": "319660",
+                  "swatch_data": null,
+                  "url_key": "luka-3-seter-sofa-7",
+                  "url_key_master_category": "sofa/3-seter/luka-3-seter-sofa-7",
+                  "value": "Ja",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "width",
+              "label": "Bredde",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "216",
+                  "sku": "319660",
+                  "swatch_data": null,
+                  "url_key": "luka-3-seter-sofa-7",
+                  "url_key_master_category": "sofa/3-seter/luka-3-seter-sofa-7",
+                  "value": "216",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "256",
+                  "sku": "317229",
+                  "swatch_data": null,
+                  "url_key": "luka-3-seter-sofa-xl",
+                  "url_key_master_category": "sofa/3-seter/luka-3-seter-sofa-xl",
+                  "value": "256",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1835254",
+          "amBrand": {
+            "label": "Formfin",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Formfin",
+            "__typename": "BrandInfo"
+          },
+          "id": 261166,
+          "uid": "MjYxMTY2",
+          "name": "Modo hjørnesofa",
+          "sku": "317379",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1743494947/Leverandører/Formfin/Produkter/MODO/image-thumb__342820__PLP-Product/317379 - Modo hjørnesofa oppsett 100 med hel ryggpute Flø beige med ben svart 5cm - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "modo-hjornesofa-6",
+          "url_key_master_category": "sofa/hjornesofa/modo-hjornesofa-6",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 42899,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 66005,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": "MODO-serien i tekstil Flø",
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 35,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": "35% rabatt på",
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1743494947/Leverandører/Formfin/Produkter/MODO/image-thumb__342820__Product-option-selector/317379 - Modo hjørnesofa oppsett 100 med hel ryggpute Flø beige med ben svart 5cm - 1.jpg",
+                  "option_id": "Beige/natur - (Flø beige)",
+                  "sku": "317379",
+                  "swatch_data": null,
+                  "url_key": "modo-hjornesofa-6",
+                  "url_key_master_category": "sofa/hjornesofa/modo-hjornesofa-6",
+                  "value": "Beige/natur - (Flø beige)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1763728239/Leverandører/Formfin/Produkter/MODO/image-thumb__602405__Product-option-selector/323983 - Modo hjørnesofa oppsett 140 med konvoluttputer Flø mocca med ben svart 5cm - 1.jpg",
+                  "option_id": "Beige/natur - (Flø mocca)",
+                  "sku": "323983",
+                  "swatch_data": null,
+                  "url_key": "modo-hjornesofa-15",
+                  "url_key_master_category": "sofa/hjornesofa/modo-hjornesofa-15",
+                  "value": "Beige/natur - (Flø mocca)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1763728232/Leverandører/Formfin/Produkter/MODO/image-thumb__602393__Product-option-selector/323982 - Modo hjørnesofa oppsett 140 med konvoluttputer Flø blå med ben svart 5cm - 1.jpg",
+                  "option_id": "Blå - (Flø blå)",
+                  "sku": "323982",
+                  "swatch_data": null,
+                  "url_key": "modo-hjornesofa-14",
+                  "url_key_master_category": "sofa/hjornesofa/modo-hjornesofa-14",
+                  "value": "Blå - (Flø blå)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1757931424/Leverandører/Formfin/Produkter/MODO/image-thumb__593474__Product-option-selector/298305 - Modo hjørnesofa oppsett 100 med konvoluttputer Himalya muldvarp med ben svart 5cm - 1.jpg",
+                  "option_id": "Brun - (Himalaya muldvarp)",
+                  "sku": "298305",
+                  "swatch_data": null,
+                  "url_key": "modo-hjornesofa",
+                  "url_key_master_category": "sofa/hjornesofa/modo-hjornesofa",
+                  "value": "Brun - (Himalaya muldvarp)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1835184",
+          "amBrand": {
+            "label": "Vilmers",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Vilmers",
+            "__typename": "BrandInfo"
+          },
+          "id": 260763,
+          "uid": "MjYwNzYz",
+          "name": "Nordic lenestol",
+          "sku": "317654",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1750425543/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__348085__PLP-Product/317654 - Nordic lenestol arm style Lavastone Linen med skråben hvitoljet eik 16cm - 5.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "nordic-lenestol-7",
+          "url_key_master_category": "stoler/lenestol/nordic-lenestol-7",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 19198,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 19198,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749814281/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346766__Product-option-selector/318505 - Nordic lenestol arm style Dolomite Solitary star med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Beige/natur - (Dolomite Solitary Star)",
+                  "sku": "318505",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-10",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-10",
+                  "value": "Beige/natur - (Dolomite Solitary Star)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1750425543/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__348085__Product-option-selector/317654 - Nordic lenestol arm style Lavastone Linen med skråben hvitoljet eik 16cm - 5.jpg",
+                  "option_id": "Beige/natur - (Lavastone Linen)",
+                  "sku": "317654",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-7",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-7",
+                  "value": "Beige/natur - (Lavastone Linen)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749814395/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346987__Product-option-selector/318507 - Nordic lenestol arm style Hafnon Teal med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Blå - (Hafnon Teal)",
+                  "sku": "318507",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-12",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-12",
+                  "value": "Blå - (Hafnon Teal)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749814203/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346760__Product-option-selector/318503 - Nordic lenestol arm style Dolomite Driftwood med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Brun - (Dolomite Driftwood)",
+                  "sku": "318503",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-8",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-8",
+                  "value": "Brun - (Dolomite Driftwood)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749814442/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346770__Product-option-selector/318508 - Nordic lenestol arm style Lavastone Curry med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Brun - (Lavastone Curry)",
+                  "sku": "318508",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-13",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-13",
+                  "value": "Brun - (Lavastone Curry)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749814527/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346991__Product-option-selector/318509 - Nordic lenestol arm style Lavastone Sepia med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Brun - (Lavastone Sepia)",
+                  "sku": "318509",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-14",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-14",
+                  "value": "Brun - (Lavastone Sepia)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1750425602/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__347430__Product-option-selector/318510 - Nordic lenestol arm style Tin Cacao med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Brun - (Tin Cacao)",
+                  "sku": "318510",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-15",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-15",
+                  "value": "Brun - (Tin Cacao)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749814329/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346769__Product-option-selector/318506 - Nordic lenestol arm style Hafnon Linen med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Grå - (Hafnon Linen)",
+                  "sku": "318506",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-11",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-11",
+                  "value": "Grå - (Hafnon Linen)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749814503/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346774__Product-option-selector/318511 - Nordic lenestol arm style Tin Steel grey med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Grå - (Tin Steel grey)",
+                  "sku": "318511",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-16",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-16",
+                  "value": "Grå - (Tin Steel grey)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749814270/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__346764__Product-option-selector/318504 - Nordic lenestol arm style Dolomite Myrtle med skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Grønn - (Dolomite Myrtle)",
+                  "sku": "318504",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-9",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-9",
+                  "value": "Grønn - (Dolomite Myrtle)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1757690905/Leverandører/Vilmers/Produkter/NORDIC/image-thumb__593087__Product-option-selector/318512 - Nordic lenestol arm style Tin Turtle med konet skråben hvitoljet eik 16cm - 1.jpg",
+                  "option_id": "Grønn - (Tin Turtle)",
+                  "sku": "318512",
+                  "swatch_data": null,
+                  "url_key": "nordic-lenestol-17",
+                  "url_key_master_category": "stoler/lenestol/nordic-lenestol-17",
+                  "value": "Grønn - (Tin Turtle)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1823812",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 260496,
+          "uid": "MjYwNDk2",
+          "name": "Otello Lux hjørnesofa med endeavslutning",
+          "sku": "315035",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1745323574/Leverandører/Dominari Grupe UAB/Produkter/OTELLO LUX/image-thumb__343908__PLP-Product/315035 - Otello Lux hjørnesofa med endeavslutning oppsett 6 venstre Storm 71 Linblå med ben svart 3.5cm - 2.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "otello-lux-hjornesofa-med-endeavslutning-5",
+          "url_key_master_category": "sofa/hjornesofa/otello-lux-hjornesofa-med-endeavslutning-5",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 45000,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 45000,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1693397695/Leverandører/Dominari Grupe UAB/Produkter/OTELLO/image-thumb__280613__Product-option-selector/288535 - Otello hjørnesofa med endeavslutning oppsett 6 venstre lux komfort storm ecru 02 med ben svart 3.5cm - 1.jpg",
+                  "option_id": "Beige/natur - (Storm 02 Ecru)",
+                  "sku": "288535",
+                  "swatch_data": null,
+                  "url_key": "otello-hjornesofa-med-endeavslutning-1",
+                  "url_key_master_category": "sofa/hjornesofa/otello-hjornesofa-med-endeavslutning-1",
+                  "value": "Beige/natur - (Storm 02 Ecru)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1745323574/Leverandører/Dominari Grupe UAB/Produkter/OTELLO LUX/image-thumb__343908__Product-option-selector/315035 - Otello Lux hjørnesofa med endeavslutning oppsett 6 venstre Storm 71 Linblå med ben svart 3.5cm - 2.jpg",
+                  "option_id": "Blå - (Storm 71 Linblå)",
+                  "sku": "315035",
+                  "swatch_data": null,
+                  "url_key": "otello-lux-hjornesofa-med-endeavslutning-5",
+                  "url_key_master_category": "sofa/hjornesofa/otello-lux-hjornesofa-med-endeavslutning-5",
+                  "value": "Blå - (Storm 71 Linblå)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1694591450/Leverandører/Dominari Grupe UAB/Produkter/OTELLO LUX/image-thumb__289276__Product-option-selector/293601 - Otello Lux hjørnesofa med endeavslutning venstre Storm 37 Lindegrønn med ben svart 3.5cm - 2.jpg",
+                  "option_id": "Grønn - (Storm 37 Lindegrønn)",
+                  "sku": "293601",
+                  "swatch_data": null,
+                  "url_key": "otello-lux-hjornesofa-med-endeavslutning-1",
+                  "url_key_master_category": "sofa/hjornesofa/otello-lux-hjornesofa-med-endeavslutning-1",
+                  "value": "Grønn - (Storm 37 Lindegrønn)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1694590688/Leverandører/Dominari Grupe UAB/Produkter/OTELLO LUX/image-thumb__289274__Product-option-selector/293603 - Otello Lux hjørnesofa med endeavslutning venstre Storm 54 Terracotta med ben svart 3.5cm - 1.jpg",
+                  "option_id": "Oransje - (Storm 54 Terrakotta)",
+                  "sku": "293603",
+                  "swatch_data": null,
+                  "url_key": "otello-lux-hjornesofa-med-endeavslutning-2",
+                  "url_key_master_category": "sofa/hjornesofa/otello-lux-hjornesofa-med-endeavslutning-2",
+                  "value": "Oransje - (Storm 54 Terrakotta)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "sofas_setup",
+              "label": "Oppsett",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "2181",
+                  "sku": "315034",
+                  "swatch_data": null,
+                  "url_key": "otello-lux-hjornesofa-med-endeavslutning-4",
+                  "url_key_master_category": "sofa/hjornesofa/otello-lux-hjornesofa-med-endeavslutning-4",
+                  "value": "Høyre",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "2184",
+                  "sku": "315035",
+                  "swatch_data": null,
+                  "url_key": "otello-lux-hjornesofa-med-endeavslutning-5",
+                  "url_key_master_category": "sofa/hjornesofa/otello-lux-hjornesofa-med-endeavslutning-5",
+                  "value": "Venstre",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1832948",
+          "amBrand": {
+            "label": "Jakobsen",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Jakobsen",
+            "__typename": "BrandInfo"
+          },
+          "id": 258189,
+          "uid": "MjU4MTg5",
+          "name": "Cooper loungestol",
+          "sku": "317102",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1773137788/Leverandører/Jakobsen Home/Produkter/COOPER/image-thumb__342514__PLP-Product/317102 - Cooper loungestol Island 15 Brown ben svart 2.5cm - 4.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "cooper-loungestol",
+          "url_key_master_category": "stoler/lenestol/loungestoler/cooper-loungestol",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 8332,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 8332,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1773137788/Leverandører/Jakobsen Home/Produkter/COOPER/image-thumb__342514__Product-option-selector/317102 - Cooper loungestol Island 15 Brown ben svart 2.5cm - 4.jpg",
+                  "option_id": "Brun - (Island 15 Brown)",
+                  "sku": "317102",
+                  "swatch_data": null,
+                  "url_key": "cooper-loungestol",
+                  "url_key_master_category": "stoler/lenestol/loungestoler/cooper-loungestol",
+                  "value": "Brun - (Island 15 Brown)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1743063127/Leverandører/Jakobsen Home/Produkter/COOPER/image-thumb__342535__Product-option-selector/317104 - Cooper loungestol Seven 18 Dark brown ben svart 2.5cm - 1.jpg",
+                  "option_id": "Brun - (Seven 18 Dark brown)",
+                  "sku": "317104",
+                  "swatch_data": null,
+                  "url_key": "cooper-loungestol-2",
+                  "url_key_master_category": "stoler/lenestol/loungestoler/cooper-loungestol-2",
+                  "value": "Brun - (Seven 18 Dark brown)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1773137793/Leverandører/Jakobsen Home/Produkter/COOPER/image-thumb__342523__Product-option-selector/317103 - Cooper loungestol Perfect Harmony 39 Hunter ben svart 2.5cm - 1.jpg",
+                  "option_id": "Grønn - (Perfect Harmony 39 Hunter)",
+                  "sku": "317103",
+                  "swatch_data": null,
+                  "url_key": "cooper-loungestol-1",
+                  "url_key_master_category": "stoler/lenestol/loungestoler/cooper-loungestol-1",
+                  "value": "Grønn - (Perfect Harmony 39 Hunter)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1802715",
+          "amBrand": {
+            "label": "Vilmers",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Vilmers",
+            "__typename": "BrandInfo"
+          },
+          "id": 248349,
+          "uid": "MjQ4MzQ5",
+          "name": "Alps hjørnesofa med endeavslutning",
+          "sku": "313001",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1733907303/Leverandører/Vilmers/Produkter/ALPS/image-thumb__335010__PLP-Product/313001 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Dolomite Myrtle med treben svart 3cm - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "alps-hjornesofa-med-endeavslutning-6",
+          "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-6",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 55916,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 55916,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1696509544/Leverandører/Vilmers/Produkter/ALPS/image-thumb__289076__Product-option-selector/293761 - Alps hjørnesofa med endeavslutning oppsett 4 høyre beryl rainy day med treben wenge 3cm - 2.jpg",
+                  "option_id": "Beige/natur - (Beryl Rainy day)",
+                  "sku": "293761",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-2",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-2",
+                  "value": "Beige/natur - (Beryl Rainy day)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1738134252/Leverandører/Vilmers/Produkter/ALPS/image-thumb__337765__Product-option-selector/298764 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Dolomite Solitary star med treben svart 3cm - 1.jpg",
+                  "option_id": "Beige/natur - (Dolomite Solitary star)",
+                  "sku": "298764",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa",
+                  "value": "Beige/natur - (Dolomite Solitary star)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754565423/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350154__Product-option-selector/318453 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Erdite Martini olive med treben svart 3cm - 1.jpg",
+                  "option_id": "Beige/natur - (Erdite Martini olive)",
+                  "sku": "318453",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-10",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-10",
+                  "value": "Beige/natur - (Erdite Martini olive)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754565850/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350157__Product-option-selector/318454 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Erdite Silver fern med treben svart 3cm - 1.jpg",
+                  "option_id": "Beige/natur - (Erdite Silver fern)",
+                  "sku": "318454",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-11",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-11",
+                  "value": "Beige/natur - (Erdite Silver fern)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1745825464/Leverandører/Vilmers/Produkter/ALPS/image-thumb__343703__Product-option-selector/317569 - Alps hjørnesofa med sjeselong og endeavslutning oppsett 8 høyre Garnet Aluminium med treben svart 3cm - 1.jpg",
+                  "option_id": "Beige/natur - (Garnet Aluminium)",
+                  "sku": "317569",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-sjeselong-og-endeavslutning-1",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-sjeselong-og-endeavslutning-1",
+                  "value": "Beige/natur - (Garnet Aluminium)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1745825612/Leverandører/Vilmers/Produkter/ALPS/image-thumb__343708__Product-option-selector/317671 - Alps hjørnesofa med sjeselong og endeavslutning oppsett 8 høyre Garnet Smoke blue med treben svart 3cm - 1.jpg",
+                  "option_id": "Blå - (Garnet Smoke blue)",
+                  "sku": "317671",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-sjeselong-og-endeavslutning-3",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-sjeselong-og-endeavslutning-3",
+                  "value": "Blå - (Garnet Smoke blue)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1696509268/Leverandører/Vilmers/Produkter/ALPS/image-thumb__289087__Product-option-selector/293759 - Alps hjørnesofa med endeavslutning oppsett 4 høyre beryl choclate brown med treben wenge 3cm - 2.jpg",
+                  "option_id": "Brun - (Beryl Chocolate brown)",
+                  "sku": "293759",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning",
+                  "value": "Brun - (Beryl Chocolate brown)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754565963/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350255__Product-option-selector/294054 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Erytrit Pine bark med treben svart 3cm - 1.jpg",
+                  "option_id": "Brun - (Erytrit Pine bark)",
+                  "sku": "294054",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-37",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-37",
+                  "value": "Brun - (Erytrit Pine bark)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754566095/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350159__Product-option-selector/318455 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Sneak Dusty clay med treben svart 3cm - 1.jpg",
+                  "option_id": "Brun - (Sneak Dusty clay)",
+                  "sku": "318455",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-12",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-12",
+                  "value": "Brun - (Sneak Dusty clay)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754566331/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350165__Product-option-selector/318457 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Sneak Liver med treben svart 3cm - 1.jpg",
+                  "option_id": "Brun - (Sneak Liver)",
+                  "sku": "318457",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-14",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-14",
+                  "value": "Brun - (Sneak Liver)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754565664/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350152__Product-option-selector/318452 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Erdite Rainy day med treben svart 3cm - 1.jpg",
+                  "option_id": "Grå - (Erdite Rainy day)",
+                  "sku": "318452",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-9",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-9",
+                  "value": "Grå - (Erdite Rainy day)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1745825529/Leverandører/Vilmers/Produkter/ALPS/image-thumb__343705__Product-option-selector/317670 - Alps hjørnesofa med sjeselong og endeavslutning oppsett 8 høyre Garnet Moon rock med treben svart 3cm - 1.jpg",
+                  "option_id": "Grå - (Garnet Moon rock)",
+                  "sku": "317670",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-sjeselong-og-endeavslutning-2",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-sjeselong-og-endeavslutning-2",
+                  "value": "Grå - (Garnet Moon rock)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1745825657/Leverandører/Vilmers/Produkter/ALPS/image-thumb__343710__Product-option-selector/317568 - Alps hjørnesofa med sjeselong og endeavslutning oppsett 8 høyre Garnet Steel grey med treben svart 3cm - 1.jpg",
+                  "option_id": "Grå - (Garnet Steel grey)",
+                  "sku": "317568",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-sjeselong-og-endeavslutning",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-sjeselong-og-endeavslutning",
+                  "value": "Grå - (Garnet Steel grey)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754566204/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350161__Product-option-selector/318456 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Sneak Ginger Root med treben svart 3cm - 1.jpg",
+                  "option_id": "Grå - (Sneak Ginger root)",
+                  "sku": "318456",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-13",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-13",
+                  "value": "Grå - (Sneak Ginger root)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1696509424/Leverandører/Vilmers/Produkter/ALPS/image-thumb__289079__Product-option-selector/293760 - Alps hjørnesofa med endeavslutning oppsett 4 høyre beryl myrtle med treben wenge 3cm - 1.jpg",
+                  "option_id": "Grønn - (Beryl Myrtle)",
+                  "sku": "293760",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-1",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-1",
+                  "value": "Grønn - (Beryl Myrtle)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1733907303/Leverandører/Vilmers/Produkter/ALPS/image-thumb__335010__Product-option-selector/313001 - Alps hjørnesofa med endeavslutning oppsett 7 høyre Dolomite Myrtle med treben svart 3cm - 1.jpg",
+                  "option_id": "Grønn - (Dolomite Myrtle)",
+                  "sku": "313001",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-6",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-6",
+                  "value": "Grønn - (Dolomite Myrtle)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "sofas_setup",
+              "label": "Oppsett",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "2181",
+                  "sku": "313001",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-6",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-6",
+                  "value": "Høyre",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "2184",
+                  "sku": "313002",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-7",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-7",
+                  "value": "Venstre",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "width",
+              "label": "Bredde",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "304",
+                  "sku": "313001",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-endeavslutning-6",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-endeavslutning-6",
+                  "value": "304",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "375",
+                  "sku": "318464",
+                  "swatch_data": null,
+                  "url_key": "alps-hjornesofa-med-sjeselong-og-endeavslutning-8",
+                  "url_key_master_category": "sofa/hjornesofa/alps-hjornesofa-med-sjeselong-og-endeavslutning-8",
+                  "value": "375",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1754157",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 243423,
+          "uid": "MjQzNDIz",
+          "name": "Honey rundt sofabord Ø90",
+          "sku": "305015",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1727246403/Leverandører/Baltic Furniture/Produkter/HONEY/image-thumb__328120__PLP-Product/305015 - Honey rundt sofabord Ø90 H45 oljet eik mocca med sokkelben - 3.png",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "honey-rundt-sofabord-o90-1",
+          "url_key_master_category": "bord/sofabord/honey-rundt-sofabord-o90-1",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 9999,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 9999,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1727246464/Leverandører/Baltic Furniture/Produkter/HONEY/image-thumb__328115__Product-option-selector/299073 - Honey rundt sofabord Ø90 H45 hvitoljet heltre eik nordic white l114 med sokkelben - 1.png",
+                  "option_id": "Beige/natur - (Nordic White L114)",
+                  "sku": "299073",
+                  "swatch_data": null,
+                  "url_key": "honey-rundt-sofabord-o90",
+                  "url_key_master_category": "bord/sofabord/honey-rundt-sofabord-o90",
+                  "value": "Beige/natur - (Nordic White L114)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1727246403/Leverandører/Baltic Furniture/Produkter/HONEY/image-thumb__328120__Product-option-selector/305015 - Honey rundt sofabord Ø90 H45 oljet eik mocca med sokkelben - 3.png",
+                  "option_id": "Brun - (Mocca)",
+                  "sku": "305015",
+                  "swatch_data": null,
+                  "url_key": "honey-rundt-sofabord-o90-1",
+                  "url_key_master_category": "bord/sofabord/honey-rundt-sofabord-o90-1",
+                  "value": "Brun - (Mocca)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1727880198/Leverandører/Baltic Furniture/Produkter/HONEY/image-thumb__328121__Product-option-selector/309889 - Honey rundt sofabord med funksjon Ø90 H45 lakkert finer svart med oppbevaringsrom i sokkel - 1.png",
+                  "option_id": "Svart",
+                  "sku": "309889",
+                  "swatch_data": null,
+                  "url_key": "honey-rundt-sofabord-med-funksjon-o90",
+                  "url_key_master_category": "bord/sofabord/honey-rundt-sofabord-med-funksjon-o90",
+                  "value": "Svart",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1726980",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 241986,
+          "uid": "MjQxOTg2",
+          "name": "Høvik rundt sofabord Ø80",
+          "sku": "299129",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1724324349/Leverandører/Interstil/Produkter/HØVIK/image-thumb__322911__PLP-Product/299129 - Høvik rundt sofabord Ø80 H38 lakkert eikefiner hvitpigmentert med sokkel - 1.JPG",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "hovik-rundt-sofabord-o80",
+          "url_key_master_category": "bord/sofabord/hovik-rundt-sofabord-o80",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 5199,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 5199,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1724324349/Leverandører/Interstil/Produkter/HØVIK/image-thumb__322911__Product-option-selector/299129 - Høvik rundt sofabord Ø80 H38 lakkert eikefiner hvitpigmentert med sokkel - 1.JPG",
+                  "option_id": "Beige/natur - (Hvitpigmentert)",
+                  "sku": "299129",
+                  "swatch_data": null,
+                  "url_key": "hovik-rundt-sofabord-o80",
+                  "url_key_master_category": "bord/sofabord/hovik-rundt-sofabord-o80",
+                  "value": "Beige/natur - (Hvitpigmentert)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1741609221/Leverandører/Interstil/Produkter/HØVIK/image-thumb__338704__Product-option-selector/314957 - Høvik rundt sofabord Ø80 H32 lakkert eikefiner brun med sokkel - 2.png",
+                  "option_id": "Brun",
+                  "sku": "314957",
+                  "swatch_data": null,
+                  "url_key": "hovik-rundt-sofabord-o80-2",
+                  "url_key_master_category": "bord/sofabord/hovik-rundt-sofabord-o80-2",
+                  "value": "Brun",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1725535106/Leverandører/Interstil/Produkter/HØVIK/image-thumb__326828__Product-option-selector/299127 - Høvik rundt sofabord Ø80 H38 lakkert askefiner svart med sokkel - 1.jpg",
+                  "option_id": "Svart",
+                  "sku": "299127",
+                  "swatch_data": null,
+                  "url_key": "hovik-rundt-sofabord-o80-1",
+                  "url_key_master_category": "bord/sofabord/hovik-rundt-sofabord-o80-1",
+                  "value": "Svart",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "size",
+              "label": "Mål",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "84903",
+                  "sku": "299128",
+                  "swatch_data": null,
+                  "url_key": "hovik-rundt-sofabord-o100",
+                  "url_key_master_category": "bord/sofabord/hovik-rundt-sofabord-o100",
+                  "value": "Ø100",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "81912",
+                  "sku": "299129",
+                  "swatch_data": null,
+                  "url_key": "hovik-rundt-sofabord-o80",
+                  "url_key_master_category": "bord/sofabord/hovik-rundt-sofabord-o80",
+                  "value": "Ø80",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "expiring",
+          "pimcore_id": "1722110",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 241509,
+          "uid": "MjQxNTA5",
+          "name": "Aurora teppe 160x230",
+          "sku": "298339",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1728468365/Leverandører/Inhouse Group/Produkter/AURORA/image-thumb__328852__PLP-Product/298339 - Aurora teppe 160x230 90- resirkulert polyester 10- polyester krem - 4.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "aurora-teppe-160x230",
+          "url_key_master_category": "tepper/gulvteppe/aurora-teppe-160x230",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 5799,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 5799,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "3 for 2",
+            "message_code": "22",
+            "group_name": "3 for 2 på alle <a href=\"/interior\">interiørvarer</a> til ordinærpris*",
+            "group_text": "*Gjelder ikke Fast Lav Pris. Kan ikke kombineres med andre tilbud.",
+            "countdown_end_date": null,
+            "price_communication_code": null,
+            "price_communication": null,
+            "sale_price_effective_date": null,
+            "group_name_prefix": null,
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "size",
+              "label": "Mål",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "81846",
+                  "sku": "298339",
+                  "swatch_data": null,
+                  "url_key": "aurora-teppe-160x230",
+                  "url_key_master_category": "tepper/gulvteppe/aurora-teppe-160x230",
+                  "value": "160x230",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "83754",
+                  "sku": "299512",
+                  "swatch_data": null,
+                  "url_key": "aurora-teppe-200x290",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/aurora-teppe-200x290",
+                  "value": "200x290",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_price_endorser_3for2_400x400pix_solid_rgb.png",
+              "title": "<strong>3 for 2</strong>",
+              "color": "#69797a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1384065",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 219281,
+          "uid": "MjE5Mjgx",
+          "name": "Andora sofabordsett 100x100",
+          "sku": "284674",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1693379253/Leverandører/Interstil/Produkter/ANDORA/image-thumb__289044__PLP-Product/284674 - Andora sofabordsett 100x100 H48 2stk 94x47 cm lakkert eikefiner brun med understell svart stål - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "andora-sofabordsett-100x100-1",
+          "url_key_master_category": "bord/sofabord/andora-sofabordsett-100x100-1",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 5799,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 8399,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": null,
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "21",
+            "price_communication": {
+              "discount": 2600,
+              "discount_type": "amount",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": null,
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "expired",
+          "pimcore_id": "1642041",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 217619,
+          "uid": "MjE3NjE5",
+          "name": "Meknes teppe 195x290",
+          "sku": "286656",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1693399670/Leverandører/Denina AS/Produkter/MEKNES/image-thumb__273569__PLP-Product/286656 - Meknes teppe stor 195x290 polypropylen hvit - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "meknes-teppe-stor-195x290-1",
+          "url_key_master_category": "tepper/gulvteppe/stort-teppe/meknes-teppe-stor-195x290-1",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 1440,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 4799,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Outlet",
+            "message_code": "11",
+            "group_name": null,
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 70,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-12-31 22:59:59",
+            "group_name_prefix": null,
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1697628253/Leverandører/Denina AS/Produkter/MEKNES/image-thumb__273573__Product-option-selector/286655 - Meknes teppe stor 195x290 polypropylen brun - 1.jpg",
+                  "option_id": "Brun",
+                  "sku": "286655",
+                  "swatch_data": null,
+                  "url_key": "meknes-teppe-stor-195x290-2",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/meknes-teppe-stor-195x290-2",
+                  "value": "Brun",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1693399670/Leverandører/Denina AS/Produkter/MEKNES/image-thumb__273569__Product-option-selector/286656 - Meknes teppe stor 195x290 polypropylen hvit - 1.jpg",
+                  "option_id": "Hvit",
+                  "sku": "286656",
+                  "swatch_data": null,
+                  "url_key": "meknes-teppe-stor-195x290-1",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/meknes-teppe-stor-195x290-1",
+                  "value": "Hvit",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "size",
+              "label": "Mål",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "93714",
+                  "sku": "286653",
+                  "swatch_data": null,
+                  "url_key": "meknes-teppe-stor-155x230-1",
+                  "url_key_master_category": "tepper/gulvteppe/shaggy-teppe/meknes-teppe-stor-155x230-1",
+                  "value": "155x230",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "95571",
+                  "sku": "286656",
+                  "swatch_data": null,
+                  "url_key": "meknes-teppe-stor-195x290-1",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/meknes-teppe-stor-195x290-1",
+                  "value": "195x290",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_outlet_1.svg",
+              "title": "<strong>Outlet</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1653237",
+          "amBrand": {
+            "label": "Vilmers",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Vilmers",
+            "__typename": "BrandInfo"
+          },
+          "id": 214128,
+          "uid": "MjE0MTI4",
+          "name": "Alps 3 seter sofa",
+          "sku": "288360",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1739883364/Leverandører/Vilmers/Produkter/ALPS/image-thumb__276898__PLP-Product/288360 - Alps 3 seter sofa sneak ginger root med treben wenge 3cm - 14.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "alps-3-seter",
+          "url_key_master_category": "sofa/3-seter/alps-3-seter",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 21999,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 29332,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": "ALPS-serien i tekstil Sneak",
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 25,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": "25% rabatt på",
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749812283/Leverandører/Vilmers/Produkter/ALPS/image-thumb__346643__Product-option-selector/318421 - Alps 3 seter sofa helt sete Dolomite Solitary star med treben svart 3cm - 1.jpg",
+                  "option_id": "Beige/natur - (Dolomite Solitary star)",
+                  "sku": "318421",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-sofa-2",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-sofa-2",
+                  "value": "Beige/natur - (Dolomite Solitary star)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749812306/Leverandører/Vilmers/Produkter/ALPS/image-thumb__346650__Product-option-selector/318422 - Alps 3 seter sofa helt sete Erdite Martini olive med treben svart 3cm - 1.jpg",
+                  "option_id": "Beige/natur - (Erdite Martini olive)",
+                  "sku": "318422",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-sofa-3",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-sofa-3",
+                  "value": "Beige/natur - (Erdite Martini olive)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749812349/Leverandører/Vilmers/Produkter/ALPS/image-thumb__346652__Product-option-selector/318423 - Alps 3 seter sofa helt sete Erdite Rainy day med treben svart 3cm - 1.jpg",
+                  "option_id": "Beige/natur - (Erdite Rainy day)",
+                  "sku": "318423",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-sofa-4",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-sofa-4",
+                  "value": "Beige/natur - (Erdite Rainy day)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1696506904/Leverandører/Vilmers/Produkter/ALPS/image-thumb__289055__Product-option-selector/293742 - Alps 3 seter sofa xl garnet aluminium med treben wenge 3cm - 1.jpg",
+                  "option_id": "Beige/natur - (Garnet Aluminium)",
+                  "sku": "293742",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-xl",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-xl",
+                  "value": "Beige/natur - (Garnet Aluminium)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1693571991/Leverandører/Vilmers/Produkter/ALPS/image-thumb__289062__Product-option-selector/293744 - Alps 3 seter sofa xl garnet smoke blue med treben wenge 3cm - 1.jpg",
+                  "option_id": "Blå - (Garnet Smoke blue)",
+                  "sku": "293744",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-xl-2",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-xl-2",
+                  "value": "Blå - (Garnet Smoke blue)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754999464/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350250__Product-option-selector/306519 - Alps 3 seter sofa Purpolite Cinnamon med treben svart 3cm - 1.jpg",
+                  "option_id": "Brun - (Purpolite Cinnamon)",
+                  "sku": "306519",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-sofa-9",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-sofa-9",
+                  "value": "Brun - (Purpolite Cinnamon)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1696505283/Leverandører/Vilmers/Produkter/ALPS/image-thumb__289071__Product-option-selector/293737 - Alps 3 seter sofa sneak dusty clay med treben wenge 3cm - 1.jpg",
+                  "option_id": "Brun - (Sneak Dusty clay)",
+                  "sku": "293737",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-1",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-1",
+                  "value": "Brun - (Sneak Dusty clay)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1696506484/Leverandører/Vilmers/Produkter/ALPS/image-thumb__289068__Product-option-selector/293738 - Alps 3 seter sofa Sneak Liver med treben wenge 3cm - 1.jpg",
+                  "option_id": "Brun - (Sneak Liver)",
+                  "sku": "293738",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-2",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-2",
+                  "value": "Brun - (Sneak Liver)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754567763/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350137__Product-option-selector/318424 - Alps 3 seter sofa helt sete Garnet Aluminium med treben svart 3cm - 1.jpg",
+                  "option_id": "Grå - (Garnet Aluminium)",
+                  "sku": "318424",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-sofa-5",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-sofa-5",
+                  "value": "Grå - (Garnet Aluminium)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1693571929/Leverandører/Vilmers/Produkter/ALPS/image-thumb__289056__Product-option-selector/293743 - Alps 3 seter sofa xl garnet moon rock med treben wenge 3cm - 1.jpg",
+                  "option_id": "Grå - (Garnet Moon rock)",
+                  "sku": "293743",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-xl-1",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-xl-1",
+                  "value": "Grå - (Garnet Moon rock)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1694593808/Leverandører/Vilmers/Produkter/ALPS/image-thumb__289065__Product-option-selector/293745 - Alps 3 seter sofa xl GARNET Steel Grey med treben wenge 3cm - 1.jpg",
+                  "option_id": "Grå - (Garnet Steel grey)",
+                  "sku": "293745",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-xl-3",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-xl-3",
+                  "value": "Grå - (Garnet Steel grey)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754568307/Leverandører/Vilmers/Produkter/ALPS/image-thumb__350146__Product-option-selector/318427 - Alps 3 seter sofa helt sete Garnet Steel grey med treben svart 3cm - 1.jpg",
+                  "option_id": "Grå - (Garnet Steel)",
+                  "sku": "318427",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-sofa-8",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-sofa-8",
+                  "value": "Grå - (Garnet Steel)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1754567343/Leverandører/Vilmers/Produkter/ALPS/image-thumb__347611__Product-option-selector/318434 - Alps 3 seter sofa XL Sneak Ginger Root med treben svart 3cm - 1.jpg",
+                  "option_id": "Grå - (Sneak Ginger root)",
+                  "sku": "318434",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-sofa-xl-6",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-sofa-xl-6",
+                  "value": "Grå - (Sneak Ginger root)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1749812463/Leverandører/Vilmers/Produkter/ALPS/image-thumb__346644__Product-option-selector/318420 - Alps 3 seter sofa helt sete Dolomite Myrtle med treben svart 3cm - 1.jpg",
+                  "option_id": "Grønn - (Dolomite Myrtle)",
+                  "sku": "318420",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-sofa-1",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-sofa-1",
+                  "value": "Grønn - (Dolomite Myrtle)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1742819914/Leverandører/Vilmers/Produkter/ALPS/image-thumb__342154__Product-option-selector/315040 - Alps 3 seter sofa Erdite Silver fern med treben svart 3cm - 8.jpg",
+                  "option_id": "Gul - (Erdite Silver fern)",
+                  "sku": "315040",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter-sofa",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter-sofa",
+                  "value": "Gul - (Erdite Silver fern)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1739883364/Leverandører/Vilmers/Produkter/ALPS/image-thumb__276898__Product-option-selector/288360 - Alps 3 seter sofa sneak ginger root med treben wenge 3cm - 14.jpg",
+                  "option_id": "Hvit - (Sneak Ginger root)",
+                  "sku": "288360",
+                  "swatch_data": null,
+                  "url_key": "alps-3-seter",
+                  "url_key_master_category": "sofa/3-seter/alps-3-seter",
+                  "value": "Hvit - (Sneak Ginger root)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "1264726",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 197214,
+          "uid": "MTk3MjE0",
+          "name": "Mullins måltilpasset teppe",
+          "sku": "281491",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1693399417/Leverandører/Inhouse Group/Produkter/MULLINS/image-thumb__235520__PLP-Product/281491 - Mullins måltilpasset teppe m-båndkant 1399kr per kvadratmeter maskinvevet - 3.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "mullins-teppe-1",
+          "url_key_master_category": "tepper/maltilpasset-teppe/mullins-teppe-1",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 1399,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 1749,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": "alle måltilpassede tepper",
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 20,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": "20% rabatt på",
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "expiring",
+          "pimcore_id": "992321",
+          "amBrand": {
+            "label": "Lone Tepper",
+            "__typename": "Brand"
+          },
+          "brand_info": {
+            "title": "Lone Tepper",
+            "__typename": "BrandInfo"
+          },
+          "id": 186261,
+          "uid": "MTg2MjYx",
+          "name": "Vila teppe 200x290",
+          "sku": "278748",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1693396921/Leverandører/Lone Tepper/Produkter/VILA/image-thumb__232572__PLP-Product/278747 - Vila teppe 160x230 ull offwhite - 21.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "vila-teppe-200x290-4",
+          "url_key_master_category": "tepper/gulvteppe/stort-teppe/vila-teppe-200x290-4",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 4199,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 5999,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": "serie VILA",
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 30,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": "30% rabatt på",
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "composition",
+              "label": "Type",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "82182",
+                  "sku": "278743",
+                  "swatch_data": null,
+                  "url_key": "vila-loper-70x140-4",
+                  "url_key_master_category": "tepper/ryer-og-lopere/vila-loper-70x140-4",
+                  "value": "Løper",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "81849",
+                  "sku": "278748",
+                  "swatch_data": null,
+                  "url_key": "vila-teppe-200x290-4",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/vila-teppe-200x290-4",
+                  "value": "Teppe",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1760427424/Leverandører/Lone Tepper/Produkter/VILA/image-thumb__64059__Product-option-selector/136132 - Vila teppe 160x230 ull 125-melert greige - 2.jpg",
+                  "option_id": "Beige/natur - (125-melert greige)",
+                  "sku": "136126",
+                  "swatch_data": null,
+                  "url_key": "vila-teppe-200x290-2",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/vila-teppe-200x290-2",
+                  "value": "Beige/natur - (125-melert greige)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1747738816/Leverandører/Lone Tepper/Produkter/VILA/image-thumb__340642__Product-option-selector/314775 - Vila teppe 130x190 100- ull beige - 1.png",
+                  "option_id": "Beige/natur - (138-beige)",
+                  "sku": "314777",
+                  "swatch_data": null,
+                  "url_key": "vila-teppe-200x290-5",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/vila-teppe-200x290-5",
+                  "value": "Beige/natur - (138-beige)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1760431803/Leverandører/Lone Tepper/Produkter/VILA/image-thumb__63423__Product-option-selector/136133 - Vila teppe 160x230 ull 115-melert lys grå - 2.jpg",
+                  "option_id": "Grå - (115-melert lys grå)",
+                  "sku": "136139",
+                  "swatch_data": null,
+                  "url_key": "vila-teppe-200x290",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/vila-teppe-200x290",
+                  "value": "Grå - (115-melert lys grå)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1689169379/Leverandører/Lone Tepper/Produkter/VILA/image-thumb__63985__Product-option-selector/136121 - Vila teppe 160x230 ull 825-melert grå - 1.jpg",
+                  "option_id": "Grå - (825-melert grå)",
+                  "sku": "136129",
+                  "swatch_data": null,
+                  "url_key": "vila-teppe-200x290-1",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/vila-teppe-200x290-1",
+                  "value": "Grå - (825-melert grå)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1693396921/Leverandører/Lone Tepper/Produkter/VILA/image-thumb__232572__Product-option-selector/278747 - Vila teppe 160x230 ull offwhite - 21.jpg",
+                  "option_id": "Hvit - (001-offwhite)",
+                  "sku": "278748",
+                  "swatch_data": null,
+                  "url_key": "vila-teppe-200x290-4",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/vila-teppe-200x290-4",
+                  "value": "Hvit - (001-offwhite)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "size",
+              "label": "Mål",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "84879",
+                  "sku": "278746",
+                  "swatch_data": null,
+                  "url_key": "vila-teppe-130x190-4",
+                  "url_key_master_category": "tepper/gulvteppe/ullteppe/vila-teppe-130x190-4",
+                  "value": "130x190",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "81846",
+                  "sku": "278747",
+                  "swatch_data": null,
+                  "url_key": "vila-teppe-160x230-4",
+                  "url_key_master_category": "tepper/gulvteppe/ullteppe/vila-teppe-160x230-4",
+                  "value": "160x230",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "83754",
+                  "sku": "278748",
+                  "swatch_data": null,
+                  "url_key": "vila-teppe-200x290-4",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/vila-teppe-200x290-4",
+                  "value": "200x290",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "84360",
+                  "sku": "278743",
+                  "swatch_data": null,
+                  "url_key": "vila-loper-70x140-4",
+                  "url_key_master_category": "tepper/ryer-og-lopere/vila-loper-70x140-4",
+                  "value": "70x140",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "84918",
+                  "sku": "278744",
+                  "swatch_data": null,
+                  "url_key": "vila-loper-70x230-4",
+                  "url_key_master_category": "tepper/ryer-og-lopere/vila-loper-70x230-4",
+                  "value": "70x230",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "85551",
+                  "sku": "278745",
+                  "swatch_data": null,
+                  "url_key": "vila-loper-80x300-4",
+                  "url_key_master_category": "tepper/ryer-og-lopere/vila-loper-80x300-4",
+                  "value": "80x300",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "989789",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 177666,
+          "uid": "MTc3NjY2",
+          "name": "Gotland sofabord med glassplate 60x120",
+          "sku": "276633",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1693401272/Leverandører/Actona Group A-S (Container)/Produkter/GOTLAND/image-thumb__265282__PLP-Product/276633 - Gotland sofabord 60x120 H45 oljet eik-massivtre-finer hvit - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "gotland-sofabord-60x120",
+          "url_key_master_category": "bord/sofabord/gotland-sofabord-60x120",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 7299,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 7299,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": null,
+          "composition_links": [],
+          "convert_labels": [],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "not_expired",
+          "pimcore_id": "962860",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 176802,
+          "uid": "MTc2ODAy",
+          "name": "Regina teppe 200x290",
+          "sku": "252677",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1700040426/Leverandører/Inhouse Group/Produkter/REGINA/image-thumb__302079__PLP-Product/252676 - Regina teppe 160x230 80- ull 20- pet sand - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "regina-teppe-200x290-1",
+          "url_key_master_category": "tepper/gulvteppe/stort-teppe/regina-teppe-200x290-1",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 4799,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 7999,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Salg",
+            "message_code": "1",
+            "group_name": "serie REGINA",
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 40,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-06-28 21:59:00",
+            "group_name_prefix": "40% rabatt på",
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1700040426/Leverandører/Inhouse Group/Produkter/REGINA/image-thumb__302079__Product-option-selector/252676 - Regina teppe 160x230 80- ull 20- pet sand - 1.jpg",
+                  "option_id": "Beige/natur - (Sand)",
+                  "sku": "252677",
+                  "swatch_data": null,
+                  "url_key": "regina-teppe-200x290-1",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/regina-teppe-200x290-1",
+                  "value": "Beige/natur - (Sand)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1732019945/Leverandører/Inhouse Group/Produkter/REGINA/image-thumb__332927__Product-option-selector/277700 - Regina teppe 160x230 80- ull 20- polyester lys brun - 1.jpg",
+                  "option_id": "Brun - (Lys brun)",
+                  "sku": "277702",
+                  "swatch_data": null,
+                  "url_key": "regina-teppe-200x290-4",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/regina-teppe-200x290-4",
+                  "value": "Brun - (Lys brun)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1689235394/Leverandører/Inhouse Group/Produkter/REGINA/image-thumb__139776__Product-option-selector/252682 - Regina teppe 200x290 ull grå-brun - 1.jpg",
+                  "option_id": "Grå - (Grå/brun)",
+                  "sku": "252682",
+                  "swatch_data": null,
+                  "url_key": "regina-teppe-200x290-2",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/regina-teppe-200x290-2",
+                  "value": "Grå - (Grå/brun)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1732019877/Leverandører/Inhouse Group/Produkter/REGINA/image-thumb__332930__Product-option-selector/252671 - Regina teppe 160x230 80- ull 20- pet hvit - 2.jpg",
+                  "option_id": "Hvit",
+                  "sku": "252672",
+                  "swatch_data": null,
+                  "url_key": "regina-teppe-200x290",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/regina-teppe-200x290",
+                  "value": "Hvit",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1689338255/Leverandører/Inhouse Group/Produkter/REGINA/image-thumb__232340__Product-option-selector/277701 - Regina teppe 160x230 ull rust - 3.jpg",
+                  "option_id": "Rød - (Rust)",
+                  "sku": "277701",
+                  "swatch_data": null,
+                  "url_key": "regina-teppe-160x230-5",
+                  "url_key_master_category": "tepper/gulvteppe/ullteppe/regina-teppe-160x230-5",
+                  "value": "Rød - (Rust)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "size",
+              "label": "Mål",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "81846",
+                  "sku": "252676",
+                  "swatch_data": null,
+                  "url_key": "regina-teppe-160x230-1",
+                  "url_key_master_category": "tepper/gulvteppe/ullteppe/regina-teppe-160x230-1",
+                  "value": "160x230",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "83754",
+                  "sku": "252677",
+                  "swatch_data": null,
+                  "url_key": "regina-teppe-200x290-1",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/regina-teppe-200x290-1",
+                  "value": "200x290",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_salg_1_1_1.svg",
+              "title": "<strong>Salg</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        },
+        {
+          "__typename": "SimpleProduct",
+          "expiration_status": "expired",
+          "pimcore_id": "962637",
+          "amBrand": null,
+          "brand_info": {
+            "title": "",
+            "__typename": "BrandInfo"
+          },
+          "id": 176748,
+          "uid": "MTc2NzQ4",
+          "name": "Bentley teppe 200x290",
+          "sku": "222225",
+          "small_image": {
+            "url": "https://www.bohus.no/pimcorecdn/cache-buster-1693394894/Leverandører/Inhouse Group/Produkter/BENTLEY/image-thumb__89585__PLP-Product/222231 - Bentley teppe 160x230 viskose lys grå - 1.jpg",
+            "__typename": "ProductImage"
+          },
+          "stock_status": "NOT_AVAILABLE",
+          "url_key": "bentley-teppe-200x290-1",
+          "url_key_master_category": "tepper/gulvteppe/stort-teppe/bentley-teppe-200x290-1",
+          "url_suffix": "",
+          "price_range": {
+            "minimum_price": {
+              "final_price": {
+                "currency": "NOK",
+                "value": 4200,
+                "__typename": "Money"
+              },
+              "regular_price": {
+                "currency": "NOK",
+                "value": 8399,
+                "__typename": "Money"
+              },
+              "__typename": "ProductPrice"
+            },
+            "member_price": null,
+            "__typename": "PriceRange"
+          },
+          "campaign": {
+            "message": "Outlet",
+            "message_code": "11",
+            "group_name": null,
+            "group_text": null,
+            "countdown_end_date": null,
+            "price_communication_code": "22",
+            "price_communication": {
+              "discount": 50,
+              "discount_type": "percent",
+              "has_member_price": false,
+              "text_color": "#C83C3A",
+              "regular_price_text": "",
+              "override_plp_labels": true,
+              "__typename": "CampaignPriceCommunication"
+            },
+            "sale_price_effective_date": "2026-12-31 22:59:59",
+            "group_name_prefix": null,
+            "__typename": "SimpleCampaignOutput"
+          },
+          "composition_links": [
+            {
+              "attribute_code": "display_color",
+              "label": "Farge",
+              "links": [
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1689337805/Leverandører/Inhouse Group/Produkter/BENTLEY/image-thumb__238430__Product-option-selector/277673 - Bentley teppe 160x230 viskose isblå - 5.jpg",
+                  "option_id": "Blå - (Isblå)",
+                  "sku": "277673",
+                  "swatch_data": null,
+                  "url_key": "bentley-teppe-160x230-8",
+                  "url_key_master_category": "tepper/gulvteppe/bentley-teppe-160x230-8",
+                  "value": "Blå - (Isblå)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1693395616/Leverandører/Inhouse Group/Produkter/BENTLEY/image-thumb__125867__Product-option-selector/243814 - Bentley teppe 160x230 viskose taupe - 1.jpg",
+                  "option_id": "Brun - (Taupe)",
+                  "sku": "243814",
+                  "swatch_data": null,
+                  "url_key": "bentley-teppe-160x230-7",
+                  "url_key_master_category": "tepper/gulvteppe/bentley-teppe-160x230-7",
+                  "value": "Brun - (Taupe)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1693394894/Leverandører/Inhouse Group/Produkter/BENTLEY/image-thumb__89585__Product-option-selector/222231 - Bentley teppe 160x230 viskose lys grå - 1.jpg",
+                  "option_id": "Grå - (Lys grå)",
+                  "sku": "222225",
+                  "swatch_data": null,
+                  "url_key": "bentley-teppe-200x290-1",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/bentley-teppe-200x290-1",
+                  "value": "Grå - (Lys grå)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1693394895/Leverandører/Inhouse Group/Produkter/BENTLEY/image-thumb__89598__Product-option-selector/222253 - Bentley teppe 200x290 viskose mørk grå - 1.jpg",
+                  "option_id": "Grå - (Mørk grå)",
+                  "sku": "222267",
+                  "swatch_data": null,
+                  "url_key": "bentley-teppe-160x230",
+                  "url_key_master_category": "tepper/gulvteppe/bentley-teppe-160x230",
+                  "value": "Grå - (Mørk grå)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1693394895/Leverandører/Inhouse Group/Produkter/BENTLEY/image-thumb__89594__Product-option-selector/222224 - Bentley teppe 160x230 viskose gylden - 1.jpg",
+                  "option_id": "Gul - (Gyllen)",
+                  "sku": "222224",
+                  "swatch_data": null,
+                  "url_key": "bentley-gull-teppe-160x230",
+                  "url_key_master_category": "tepper/gulvteppe/bentley-gull-teppe-160x230",
+                  "value": "Gul - (Gyllen)",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": "https://www.bohus.no/pimcorecdn/cache-buster-1699609928/Leverandører/Inhouse Group/Produkter/BENTLEY/image-thumb__238468__Product-option-selector/277676 - Bentley teppe 200x290 viskose orange - 3.jpg",
+                  "option_id": "Oransje - (Orange)",
+                  "sku": "277674",
+                  "swatch_data": null,
+                  "url_key": "bentley-teppe-160x230-9",
+                  "url_key_master_category": "tepper/gulvteppe/bentley-teppe-160x230-9",
+                  "value": "Oransje - (Orange)",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            },
+            {
+              "attribute_code": "size",
+              "label": "Mål",
+              "links": [
+                {
+                  "image": null,
+                  "option_id": "81846",
+                  "sku": "222231",
+                  "swatch_data": null,
+                  "url_key": "bentley-teppe-160x230-2",
+                  "url_key_master_category": "tepper/gulvteppe/bentley-teppe-160x230-2",
+                  "value": "160x230",
+                  "__typename": "CompositionLink"
+                },
+                {
+                  "image": null,
+                  "option_id": "83754",
+                  "sku": "222225",
+                  "swatch_data": null,
+                  "url_key": "bentley-teppe-200x290-1",
+                  "url_key_master_category": "tepper/gulvteppe/stort-teppe/bentley-teppe-200x290-1",
+                  "value": "200x290",
+                  "__typename": "CompositionLink"
+                }
+              ],
+              "__typename": "CompositionLinks"
+            }
+          ],
+          "convert_labels": [
+            {
+              "css_class": "campaign-label",
+              "label_image": "/media/convert/label/B/O/BOH_pp_400x400pix_solid_rgb_outlet_1.svg",
+              "title": "<strong>Outlet</strong>",
+              "color": "#c83c3a",
+              "__typename": "ConvertLabel"
+            }
+          ],
+          "convert_product_list_attributes": []
+        }
+      ],
+      "__typename": "Products"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "data": {
+    "ipLocation": {
+      "postcode": "1701",
+      "__typename": "IpLocation"
+    }
+  }
+}

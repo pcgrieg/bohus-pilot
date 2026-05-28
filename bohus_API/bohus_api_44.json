@@ -1,0 +1,10 @@
+{
+  "data": {
+    "cart": {
+      "id": "GExaFxrQUvE4WuzwvJZJB5z8LYODz4NK",
+      "items": [],
+      "total_quantity": 0,
+      "__typename": "Cart"
+    }
+  }
+}

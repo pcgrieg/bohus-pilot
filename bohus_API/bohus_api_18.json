@@ -1,0 +1,14 @@
+{
+  "data": {
+    "stockStatusLocations": {
+      "closest_locations": [
+        "4013",
+        "4014",
+        "4012"
+      ],
+      "furniture_location_id": "4013",
+      "interior_location_id": "3000",
+      "__typename": "StockStatusLocations"
+    }
+  }
+}

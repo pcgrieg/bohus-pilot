@@ -1,0 +1,14 @@
+{
+  "data": {
+    "cmsBlocks": {
+      "items": [
+        {
+          "content": "\n\n<div data-pimcore-content=\"\"><h4 class=\"convert-block convert-title\"> Populære søk </h4><div class=\"convert-block convert-wysiwyg\"><ul><li><a href=https://www.bohus.no/sofa target=_self>sofa</a><li><a href=https://www.bohus.no/bord/spisebord/rundt-spisebord target=_self>rundt spisebord</a><li><a href=https://www.bohus.no/tepper>gulvteppe</a><li><a href=https://www.bohus.no/merker/halvor-bakke>halvor bakke</a><li><a href=https://www.bohus.no/seng/kontinentalseng>kontinentalseng</a></ul></div><h4 class=\"convert-block convert-title\"> Snarveier </h4><div class=\"convert-block convert-wysiwyg\"><ul><li><a href=https://www.bohus.no/butikker>Finn butikk</a><li><a href=https://www.bohus.no/bli-medlem>Kundeklubb</a><li><a href=https://www.bohus.no/fraktalternativer>Frakt og levering</a><li><a href=https://www.bohus.no/kampanje>Tilbud</a><li><a href=https://www.bohus.no/kundeservice>Kundeservice</a><li><a href=https://www.bohus.no/butikker>Åpningstider</a></ul></div></div>   \n\n\n    \n\n",
+          "identifier": "snippets/popular_searches_system",
+          "__typename": "CmsBlock"
+        }
+      ],
+      "__typename": "CmsBlocks"
+    }
+  }
+}

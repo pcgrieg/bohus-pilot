@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    [
+      {
+        "@type": "ListItem",
+        "item": "https://www.bohus.no/sofa",
+        "name": "Sofa",
+        "position": 1
+      }
+    ]
+  ]
+}

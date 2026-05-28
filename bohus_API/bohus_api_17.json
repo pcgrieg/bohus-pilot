@@ -1,0 +1,48 @@
+{
+  "data": {
+    "nearestLocations": [
+      {
+        "address": "Dikeveien 37",
+        "city": "Rolvsøy",
+        "distance": 9182,
+        "identifier": "fredrikstad",
+        "name": "Fredrikstad",
+        "phone": "69364040",
+        "location_id": 4013,
+        "postcode": "1661",
+        "schedule": null,
+        "warehouse_weekdays_open_hours": null,
+        "warehouse_saturday_open_hours": null,
+        "__typename": "Location"
+      },
+      {
+        "address": "Haldenveien 5",
+        "city": "Rakkestad",
+        "distance": 25098,
+        "identifier": "rakkestad",
+        "name": "Rakkestad",
+        "phone": "69223980",
+        "location_id": 4014,
+        "postcode": "1890",
+        "schedule": null,
+        "warehouse_weekdays_open_hours": null,
+        "warehouse_saturday_open_hours": null,
+        "__typename": "Location"
+      },
+      {
+        "address": "Årvollskogen 1",
+        "city": "Moss",
+        "distance": 31947,
+        "identifier": "moss",
+        "name": "Moss",
+        "phone": "69269090",
+        "location_id": 4012,
+        "postcode": "1529",
+        "schedule": null,
+        "warehouse_weekdays_open_hours": null,
+        "warehouse_saturday_open_hours": null,
+        "__typename": "Location"
+      }
+    ]
+  }
+}

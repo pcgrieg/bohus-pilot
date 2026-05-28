@@ -1,0 +1,34 @@
+{
+  "data": {
+    "updatePostcode": {
+      "cart": {
+        "billing_address": {
+          "firstname": null,
+          "lastname": null,
+          "street": [
+            ""
+          ],
+          "city": null,
+          "postcode": "1701",
+          "telephone": null,
+          "__typename": "BillingCartAddress"
+        },
+        "shipping_addresses": [
+          {
+            "firstname": null,
+            "lastname": null,
+            "street": [
+              ""
+            ],
+            "city": "Sarpsborg",
+            "postcode": "1701",
+            "telephone": null,
+            "__typename": "ShippingCartAddress"
+          }
+        ],
+        "__typename": "Cart"
+      },
+      "__typename": "UpdateCartPostcodeOutput"
+    }
+  }
+}

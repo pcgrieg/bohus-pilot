@@ -1,0 +1,14 @@
+{
+  "data": {
+    "cmsBlocks": {
+      "items": [
+        {
+          "content": "\n\n<div data-pimcore-content=\"\"><div class=\"convert-block convert-wysiwyg\"><p>Meld deg inn i Bo:klubben og få -20% på én valgfri møbelvare* og -40% én valgfri interiørvare*, motta andre eksklusive medlemstilbud og inspirasjon. <p><a href=/bli-medlem>Les mer</a></div></div>   \n\n\n    \n\n",
+          "identifier": "snippets/boklubben_usp_footer_system",
+          "__typename": "CmsBlock"
+        }
+      ],
+      "__typename": "CmsBlocks"
+    }
+  }
+}
