@@ -9,7 +9,7 @@ import csv
 import time
 
 BASE_URL = "https://www.skeidar.no/alle-produkter/alle-sofaer/sofa/"
-MAX_PAGES = 20  # sett til None for å hente ALT, eller f.eks. 5 for å teste
+MAX_PAGES = None  # sett til None for å hente ALT, eller f.eks. 5 for å teste
 
 def extract_category_data(html: str) -> dict | None:
     """Trekker ut CATEGORY_DATA JSON-objektet fra HTML-en."""
@@ -27,8 +27,8 @@ def scrape_page(page, page_num: int) -> tuple[list, int]:
     """Henter én side med produkter. Returnerer (produkter, totalCount)."""
     url = f"{BASE_URL}?page={page_num}" if page_num > 1 else BASE_URL
     print(f"Henter side {page_num}: {url}")
-    page.goto(url, wait_until="domcontentloaded", timeout=30000)
-    page.wait_for_timeout(1500)
+    page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    page.wait_for_timeout(3000)
 
     html = page.content()
     data = extract_category_data(html)

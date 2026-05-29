@@ -1,0 +1,74 @@
+{
+  "_README": {
+    "_kommentar": "DEMO-DATA for prissetting. Hver nokkel MAA matche en produktnokkel i products.json. Produkter uten treff faller tilbake paa et tydelig markert demo-estimat i frontend.",
+    "_felter": {
+      "cost": "Innkjopspris i kr. Satt som realistisk andel av listepris (43-57 prosent) etter leverandortype: import lavere kostandel, eksklusive/norske merker hoyere. PRODUKSJON: hentes fra ERP/innkjopssystem.",
+      "supplierFloor": "Leverandorgulv i kr (laveste tillatte utpris). Finnes KUN for sterke norske merkevarer som styrer forhandlerpris (Brunstad, Hovden). Egenmerker og import har ikke gulv. PRODUKSJON: hentes fra leverandoravtaler.",
+      "avrunding": "Standard psykologisk prisslutt: 90, 95 eller 99.",
+      "marginStrategi": "Referanse: margin ved markedspris (Skeidar-paritet). Vises ikke direkte; brukes ikke til prisberegning (pris styres av slider). Kan fjernes hvis ikke onsket.",
+      "minMargin": "Minimumsmargin i prosent. Hard nedre grense: margin-slideren kan ikke settes lavere, og pris kan ikke godkjennes under dette. Satt 30-40 prosent, typisk 10-15 pp under realisert margin ved markedspris. PRODUKSJON: del av Bohus prisstrategi per produkt/kategori."
+    }
+  },
+  "belmont": {
+    "cost": 12500,
+    "avrunding": 90,
+    "marginStrategi": 55,
+    "minMargin": 40
+  },
+  "tone": {
+    "cost": 19420,
+    "avrunding": 90,
+    "marginStrategi": 45,
+    "minMargin": 33
+  },
+  "tone2": {
+    "cost": 7460,
+    "avrunding": 90,
+    "marginStrategi": 47,
+    "minMargin": 35
+  },
+  "brooks": {
+    "cost": 9040,
+    "avrunding": 90,
+    "marginStrategi": 55,
+    "minMargin": 40
+  },
+  "brunstad": {
+    "cost": 6610,
+    "avrunding": 90,
+    "supplierFloor": 10430,
+    "marginStrategi": 47,
+    "minMargin": 34
+  },
+  "storm": {
+    "cost": 22500,
+    "avrunding": 90,
+    "marginStrategi": 43,
+    "minMargin": 32
+  },
+  "storm2": {
+    "cost": 3560,
+    "avrunding": 90,
+    "marginStrategi": 49,
+    "minMargin": 36
+  },
+  "celin": {
+    "cost": 7310,
+    "avrunding": 90,
+    "marginStrategi": 57,
+    "minMargin": 42
+  },
+  "diego": {
+    "cost": 20740,
+    "avrunding": 90,
+    "marginStrategi": 51,
+    "minMargin": 38
+  },
+  "hovden": {
+    "cost": 13960,
+    "avrunding": 90,
+    "supplierFloor": 23100,
+    "marginStrategi": 41,
+    "minMargin": 30
+  }
+}
