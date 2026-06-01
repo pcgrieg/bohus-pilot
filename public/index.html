@@ -185,7 +185,7 @@
   /* ============ KPI cards ============ */
   .kpi-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
     margin-bottom: 24px;
   }
@@ -295,7 +295,7 @@
 
   .table-row {
     display: grid;
-    grid-template-columns: 2.2fr 1fr 0.8fr 0.8fr 180px;
+    grid-template-columns: var(--product-table-cols, 2.2fr 1fr 0.8fr 0.8fr 180px);
     gap: 12px;
     padding: 12px 16px;
     border-bottom: 1px solid var(--border);
@@ -305,6 +305,13 @@
   }
   .table-row:hover { background: var(--surface-2); }
   .table-row:last-child { border-bottom: none; }
+
+  .empty-row {
+    padding: 28px 16px;
+    text-align: center;
+    color: var(--text-mute);
+    font-size: 13px;
+  }
 
   /* Handlingsknapp i produktrad */
   .row-action {
@@ -326,6 +333,65 @@
   .row-action:hover { background: var(--dark); color: var(--fog); border-color: var(--dark); }
   .row-action i { font-size: 14px; }
   .row-action-cell { display: flex; justify-content: flex-end; }
+
+  .competitor-menu {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+  .competitor-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 28px;
+    padding: 0 10px;
+    border: 1px solid var(--border-strong);
+    border-radius: 6px;
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .competitor-trigger:hover { border-color: var(--text-mute); background: var(--surface-2); }
+  .competitor-trigger i { font-size: 14px; color: var(--text-mute); }
+  .dropdown-arrow {
+    font-size: 12px;
+    color: var(--text-mute);
+    line-height: 1;
+  }
+  .competitor-dropdown {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    z-index: 20;
+    min-width: 230px;
+    padding: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 12px 28px rgba(30,46,46,0.14);
+  }
+  .competitor-menu.open .competitor-dropdown { display: block; }
+  .competitor-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .competitor-option:hover { background: var(--surface-2); }
+  .competitor-option input { accent-color: var(--dark); }
+  .competitor-option-meta {
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--text-dim);
+  }
 
   .table-row.header {
     background: var(--surface-3);
@@ -372,6 +438,19 @@
   .num-comp.higher { color: var(--teal-dark); }
   .num-na { color: var(--text-dim); }
 
+  .comp-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1px;
+  }
+  .gap-mini {
+    font-size: 10px;
+    color: var(--text-mute);
+  }
+  .gap-mini.over { color: var(--alert); }
+  .gap-mini.under { color: var(--teal-dark); }
+
   /* Pris med rabatt i tabell */
   .price-with-discount {
     display: flex;
@@ -412,7 +491,14 @@
     display: grid;
     grid-template-columns: 360px 1fr;
     gap: 16px;
-    align-items: start;
+    align-items: stretch;
+  }
+  .detail-grid > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .detail-grid > div > .panel {
+    flex: 1;
   }
 
   .panel-pad { padding: 16px; }
@@ -536,22 +622,26 @@
   .skeidar-link {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    justify-content: center;
+    gap: 6px;
     font-size: 12px;
+    font-weight: 500;
     color: var(--teal-dark);
     text-decoration: none;
-    padding: 6px 10px;
-    border: 1px solid var(--border-strong);
+    min-height: 34px;
+    padding: 8px 12px;
+    border: 1px solid rgba(15,110,86,0.28);
     border-radius: 6px;
     white-space: nowrap;
-    background: var(--surface);
+    background: var(--teal-bg);
     transition: background 0.1s, border-color 0.1s;
   }
   .skeidar-link:hover {
-    background: var(--teal-bg);
+    background: #D3F0E6;
     border-color: var(--teal-dark);
+    color: var(--dark-deep);
   }
-  .skeidar-link i { font-size: 13px; }
+  .skeidar-link i { font-size: 14px; }
 
   .match-reason-box {
     background: var(--surface-2);
@@ -584,6 +674,50 @@
   }
   .match-attr i { font-size: 12px; color: var(--teal-dark); }
   .match-attr strong { font-weight: 500; }
+
+  .match-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .match-row {
+    display: grid;
+    grid-template-columns: 130px minmax(220px, 1.4fr) 140px 90px minmax(280px, 1.6fr) 140px;
+    min-width: 760px;
+    gap: 10px;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+    font-size: 12px;
+  }
+  .match-row:last-child { border-bottom: none; }
+  .match-row-header {
+    background: var(--surface-3);
+    color: var(--text-mute);
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    padding: 8px 16px;
+  }
+  .match-model { min-width: 0; }
+  .match-model-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .match-model-meta {
+    font-size: 11px;
+    color: var(--text-mute);
+    margin-top: 2px;
+  }
+  .match-link-cell { display: flex; justify-content: flex-end; }
+  .match-empty {
+    color: var(--text-dim);
+    font-size: 12px;
+  }
 
   /* Position bar */
   .pos-bar-wrap { padding: 16px; }
@@ -624,6 +758,13 @@
     background: #D85A30;
     border-radius: 2px;
   }
+  .pos-marker {
+    position: absolute;
+    top: -3px;
+    bottom: -3px;
+    width: 3px;
+    border-radius: 2px;
+  }
   .pos-bar-axis {
     display: flex;
     justify-content: space-between;
@@ -636,6 +777,10 @@
     font-size: 11px;
     color: var(--text-mute);
     margin-top: 8px;
+  }
+  .pos-bar-legend .inactive {
+    color: var(--text-dim);
+    opacity: 0.65;
   }
 
   /* Chart */
@@ -674,6 +819,15 @@
   /* Back button — tydelig hjem-knapp */
   .back-home {
     margin-bottom: 16px;
+    background: var(--teal-bg);
+    border-color: rgba(15,110,86,0.28);
+    color: var(--teal-dark);
+    padding: 10px 14px;
+  }
+  .back-home:hover {
+    background: #D3F0E6;
+    border-color: var(--teal-dark);
+    color: var(--dark-deep);
   }
   .back-home i { font-size: 16px; }
 
@@ -970,7 +1124,7 @@
 
     <div class="nav-footer">
       <div class="user-chip">
-        <div class="user-avatar">PC</div>
+        <div class="user-avatar">CA</div>
         <div>
           <div style="color: var(--fog); font-weight: 500;">Cathrine Weberg Abrahamsen</div>
           <div style="font-size: 10px;">Kommersiell direktør</div>
@@ -1005,17 +1159,12 @@
             <div class="kpi-label"><i class="ti ti-trending-up"></i> Snittposisjon mot konkurrenter</div>
             <div class="kpi-value" id="kpi-pos">—</div>
           </div>
-          <div class="kpi">
-            <div class="kpi-label"><i class="ti ti-alert-triangle"></i> Over regel</div>
-            <div class="kpi-value" id="kpi-over">—</div>
-            <div class="kpi-sub alert" id="kpi-over-sub">produkter utenfor ±3% sone</div>
-          </div>
         </div>
 
         <!-- Product list -->
         <div class="section-title">
           KVI-produkter
-          <span class="section-title-meta">3 produkter · klikk for detaljer</span>
+          <span class="section-title-meta" id="product-count-meta">— produkter</span>
         </div>
 
         <div class="panel">
@@ -1025,9 +1174,16 @@
             <span class="chip disabled" id="filter-seng">Senger</span>
             <span class="chip disabled" id="filter-madr">Madrasser</span>
             <span class="chip disabled" id="filter-stol">Stoler</span>
+            <div class="competitor-menu" id="competitor-menu">
+              <button class="competitor-trigger" type="button" id="competitor-menu-button" aria-expanded="false">
+                <span>Konkurrenter</span>
+                <span class="dropdown-arrow">▼</span>
+              </button>
+              <div class="competitor-dropdown" id="competitor-options"></div>
+            </div>
             <div class="search-input">
               <i class="ti ti-search"></i>
-              <input type="text" placeholder="Søk produkt..." />
+              <input type="text" id="product-search" placeholder="Søk produkt..." autocomplete="off" />
             </div>
           </div>
 
@@ -1035,8 +1191,7 @@
             <div class="table-row header">
               <div>Produkt</div>
               <div style="text-align:right">Bohus</div>
-              <div style="text-align:right">Skeidar</div>
-              <div style="text-align:right">Gap</div>
+              <div data-competitor-header></div>
               <div style="text-align:right">Handling</div>
             </div>
             <!-- Rader rendres fra JS -->
@@ -1048,7 +1203,6 @@
           Siste aktivitet
           <span class="section-title-meta">
             <span class="demo-note"><i class="ti ti-flask"></i> Demo-data</span>
-            prisendringer hos Skeidar
           </span>
         </div>
 
@@ -1062,7 +1216,7 @@
       <div class="view" id="view-detail">
 
         <button class="btn back-home" id="back-btn">
-          <i class="ti ti-arrow-left"></i> Tilbake til prisverktøyet
+          <i class="ti ti-arrow-left"></i> Tilbake til prisovervåking
         </button>
 
         <div class="detail-grid">
@@ -1094,42 +1248,21 @@
               </div>
             </div>
 
-            <div class="panel">
-              <div class="match-info">
-                <i class="ti ti-info-circle"></i>
-                <span id="match-info">Matchet via leverandør + modellnavn — <span class="conf-high">høy konfidens</span></span>
-              </div>
-              <div class="comp-row header">
-                <div>Aktør</div>
-                <div style="text-align:right">Pris</div>
-                <div style="text-align:right">Gap</div>
-              </div>
-              <div class="comp-row own">
-                <div class="comp-name own"><i class="ti ti-building-store"></i><strong>Bohus (egen)</strong></div>
-                <div class="num num-bold" id="own-price">14 990 kr</div>
-                <div class="num" id="own-gap">—</div>
-              </div>
-              <div class="comp-row">
-                <div class="comp-name"><i class="ti ti-building-store"></i>Skeidar</div>
-                <div class="num num-comp" id="comp-price">15 490 kr</div>
-                <div class="num" id="comp-gap">−3 %</div>
-              </div>
-            </div>
           </div>
 
           <!-- RIGHT: Position bar + chart -->
           <div>
             <div class="panel">
-              <div class="panel-h" style="padding: 16px 16px 0;">Prisposisjon vs. Skeidar</div>
+              <div class="panel-h" style="padding: 16px 16px 0;">Prisposisjon vs. Konkurrenter</div>
               <div class="pos-bar-wrap">
                 <div class="pos-bar-label">
-                  <span>KVI-regel: <strong style="color: var(--text);">±3 % av Skeidars pris</strong></span>
+                  <span>KVI-regel: <strong style="color: var(--text);">±3 % av konkurrenters snittpris</strong></span>
                   <span id="pos-status" style="color: var(--teal-dark); font-weight: 500;">Innenfor regel</span>
                 </div>
                 <div class="pos-bar">
                   <div class="pos-bar-zone" id="pos-zone"></div>
                   <div class="pos-bar-marker-own" id="pos-marker-own"></div>
-                  <div class="pos-bar-marker-comp" id="pos-marker-comp"></div>
+                  <div id="pos-competitor-markers"></div>
                 </div>
                 <div class="pos-bar-axis">
                   <span>−10 %</span>
@@ -1138,39 +1271,29 @@
                   <span>+5 %</span>
                   <span>+10 %</span>
                 </div>
-                <div class="pos-bar-legend">
+                <div class="pos-bar-legend" id="pos-bar-legend">
                   <span><span class="legend-dot" style="background: var(--dark);"></span>Bohus</span>
-                  <span><span class="legend-dot" style="background: #D85A30;"></span>Skeidar (referanse)</span>
                   <span><span class="legend-dot" style="background: var(--teal-bg);"></span>Innenfor regel</span>
                 </div>
               </div>
             </div>
 
-            <!-- Matchet Skeidar-produkt -->
-            <div class="panel">
-              <div class="panel-h" style="padding: 16px 16px 12px;">Matchet Skeidar-produkt</div>
-              <div class="skeidar-match" id="skeidar-match">
-                <div class="skeidar-match-head">
-                  <div>
-                    <div class="skeidar-name" id="skeidar-name">—</div>
-                    <div class="skeidar-meta">
-                      <span id="skeidar-leverandor">—</span> ·
-                      Skeidar-pris <span id="skeidar-price-wrap">—</span>
-                    </div>
-                  </div>
-                  <a class="skeidar-link" id="skeidar-link" target="_blank" rel="noopener">
-                    Se hos Skeidar <i class="ti ti-external-link"></i>
-                  </a>
-                </div>
-                <div class="match-reason-box">
-                  <div class="match-reason-label">Grunnlag for match</div>
-                  <div class="match-attributes" id="match-attributes">
-                    <!-- attributter renders her -->
-                  </div>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
 
+        <!-- Matchede konkurrentprodukter -->
+        <div class="panel">
+          <div class="panel-h" style="padding: 16px 16px 12px;">Matchede konkurrentprodukter</div>
+          <div class="match-table">
+            <div class="match-row match-row-header">
+              <div>Konkurrent</div>
+              <div>Modellnavn</div>
+              <div style="text-align:right">Pris</div>
+              <div style="text-align:right">Gap</div>
+              <div>Grunnlag</div>
+              <div style="text-align:right"></div>
+            </div>
+            <div id="matched-products-rows"></div>
           </div>
         </div>
 
@@ -1293,7 +1416,7 @@
 
             <div class="audit" id="audit">
               <i class="ti ti-check"></i>
-              <strong>Pris godkjent</strong> · <strong id="audit-price">—</strong> · <span id="audit-time"></span> · logget av Per-Christian H.
+              <strong>Pris godkjent</strong> · <strong id="audit-price">—</strong> · <span id="audit-time"></span> · logget av Cathrine Weberg Abrahamsen
             </div>
           </div>
 
@@ -1327,11 +1450,107 @@
 // ========== Data ==========
 // Lastes fra products.json ved init(). Pipelinen (../pipeline/match.py) genererer denne.
 let products = {};
+let competitors = {};
+let competitorPrices = {};
+let visibleCompetitors = [];
 
 let active = "belmont";
 let chart = null;
 
 const fmt = n => Math.round(n).toLocaleString("nb-NO");
+const fmtPrice = n => Number.isFinite(n) ? `${fmt(n)} kr` : '—';
+const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, ch => ({
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  '"': '&quot;',
+  "'": '&#39;'
+}[ch]));
+
+const DEFAULT_COMPETITORS = ['skeidar'];
+
+function getCompetitorList() {
+  return Object.entries(competitors).map(([key, data]) => ({ key, ...data }));
+}
+
+function loadVisibleCompetitors() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('visibleCompetitors') || 'null');
+    if (Array.isArray(saved)) {
+      visibleCompetitors = saved.filter(key => competitors[key]);
+    }
+  } catch (err) {
+    visibleCompetitors = [];
+  }
+
+  if (visibleCompetitors.length === 0) {
+    visibleCompetitors = getCompetitorList()
+      .filter(c => c.enabled)
+      .map(c => c.key);
+  }
+  if (visibleCompetitors.length === 0) visibleCompetitors = [...DEFAULT_COMPETITORS];
+}
+
+function saveVisibleCompetitors() {
+  localStorage.setItem('visibleCompetitors', JSON.stringify(visibleCompetitors));
+}
+
+function getCompetitorRecord(productKey, p, competitorKey) {
+  if (competitorKey === 'skeidar') {
+    return {
+      name: competitors.skeidar?.name || 'Skeidar',
+      variant: p.skeidarVariant,
+      supplier: p.skeidarLeverandor || 'Skeidar',
+      price: p.skeidarPrice,
+      beforePrice: p.skeidarFørpris,
+      discount: p.skeidarRabatt,
+      campaign: p.skeidarKampanje,
+      url: p.skeidarUrl,
+      matchReason: p.matchReason
+    };
+  }
+  return competitorPrices[competitorKey]?.[productKey] || {
+    name: competitors[competitorKey]?.name || competitorKey,
+    price: null
+  };
+}
+
+function gapPct(ownPrice, competitorPrice) {
+  if (!Number.isFinite(competitorPrice) || competitorPrice <= 0) return null;
+  return (ownPrice - competitorPrice) / competitorPrice * 100;
+}
+
+function competitorColor(key) {
+  const colors = {
+    skeidar: '#D85A30',
+    fagmobler: '#5B7CFA',
+    mobelringen: '#8A5CF6',
+    jysk: '#0E8F8F',
+    amobler: '#BA7517'
+  };
+  return colors[key] || '#5C6968';
+}
+
+function pricedCompetitorRecords(productKey, p) {
+  return visibleCompetitors
+    .map(key => ({ key, competitor: competitors[key], record: getCompetitorRecord(productKey, p, key) }))
+    .filter(item => Number.isFinite(item.record.price) && item.record.price > 0);
+}
+
+function renderCompetitorCell(productKey, p, competitorKey) {
+  const rec = getCompetitorRecord(productKey, p, competitorKey);
+  if (!Number.isFinite(rec.price)) {
+    return '<div class="num num-na">—</div>';
+  }
+  const gap = gapPct(p.current, rec.price);
+  const cls = gap === null ? '' : gapClass(gap);
+  return `
+    <div class="num comp-cell">
+      <div class="num-comp ${compClass(p.current, rec.price)}">${fmtPrice(rec.price)}</div>
+      <div class="gap-mini ${cls}">${fmtGap(gap)}</div>
+    </div>
+  `;
+}
 
 // ========== Navigation ==========
 function showOverview() {
@@ -1340,7 +1559,7 @@ function showOverview() {
   document.getElementById('page-title').textContent = 'Prisverktøy';
   document.getElementById('nav-home').classList.add('active');
   const n = Object.keys(products).length;
-  document.getElementById('page-sub').textContent = `${n} sofaer overvåket · Skeidar som referansekonkurrent · pilot`;
+  document.getElementById('page-sub').textContent = `${n} sofaer overvåket · ${visibleCompetitors.length} konkurrent${visibleCompetitors.length === 1 ? '' : 'er'} valgt · pilot`;
 }
 
 function showDetail(id) {
@@ -1367,91 +1586,9 @@ function showDetail(id) {
   document.getElementById('prod-varianter').textContent = p.varianter + (p.varianter === 1 ? ' tekstil' : ' tekstiler');
   document.getElementById('prod-changed').textContent = p.lastChanged;
 
-  // Match info — vis Skeidar-variant og match-begrunnelse
-  const confClass = p.matchConfidence === 'høy' ? 'conf-high' : 'conf-med';
-  document.getElementById('match-info').innerHTML =
-    `Matchet mot Skeidars <strong>${p.skeidarVariant}</strong> — <span class="${confClass}">${p.matchConfidence} konfidens</span>`;
+  renderMatchedProductsRows(id, p);
 
-  // Competitor row
-  let ownPriceHtml = `<div>${fmt(p.current)} kr</div>`;
-  if (p.bohusKampanje && p.bohusFørpris) {
-    ownPriceHtml += `<div class="price-sub"><span class="price-was-inline">${fmt(p.bohusFørpris)} kr</span> <span class="discount-badge">−${p.bohusRabatt} %</span></div>`;
-  }
-  document.getElementById('own-price').innerHTML = ownPriceHtml;
-
-  let compPriceHtml = `<div>${fmt(p.skeidarPrice)} kr</div>`;
-  if (p.skeidarKampanje && p.skeidarFørpris) {
-    compPriceHtml += `<div class="price-sub"><span class="price-was-inline">${fmt(p.skeidarFørpris)} kr</span> <span class="discount-badge">−${p.skeidarRabatt} %</span></div>`;
-  } else if (p.skeidarFørpris && p.skeidarFørpris > p.skeidarPrice) {
-    compPriceHtml += `<div class="price-sub"><span class="rrp-badge" title="Veiledende pris-trikset: Skeidar viser RRP som referansepris">RRP −${p.skeidarRabatt} %</span></div>`;
-  }
-  document.getElementById('comp-price').innerHTML = compPriceHtml;
-  const compCls = compClass(p.current, p.skeidarPrice);
-  document.getElementById('comp-price').className = 'num num-comp ' + compCls;
-
-  const ownVsSkeidar = (p.current - p.skeidarPrice) / p.skeidarPrice * 100;
-  const compVsBohus = (p.skeidarPrice - p.current) / p.current * 100;
-  document.getElementById('own-gap').textContent = ownVsSkeidar >= 0 ? `+${ownVsSkeidar.toFixed(1)} %` : `${ownVsSkeidar.toFixed(1)} %`;
-  document.getElementById('comp-gap').textContent = compVsBohus >= 0 ? `+${compVsBohus.toFixed(1)} %` : `${compVsBohus.toFixed(1)} %`;
-
-  // Skeidar match-bolk
-  document.getElementById('skeidar-name').textContent = p.skeidarVariant;
-  document.getElementById('skeidar-leverandor').textContent = p.skeidarLeverandor || 'Skeidar';
-
-  // Pris-blokk med eventuell rabatt
-  const skeidarPriceWrap = document.getElementById('skeidar-price-wrap');
-  let priceHtml = `<strong>${fmt(p.skeidarPrice)} kr</strong>`;
-  if (p.skeidarKampanje && p.skeidarFørpris) {
-    priceHtml += `
-      <span class="discount-inline">
-        <span class="price-was-inline">${fmt(p.skeidarFørpris)} kr</span>
-        <span class="discount-badge">Kampanje −${p.skeidarRabatt} %</span>
-      </span>
-    `;
-  } else if (p.skeidarFørpris && p.skeidarFørpris > p.skeidarPrice) {
-    // Veiledende pris-trikset
-    priceHtml += `
-      <span class="discount-inline">
-        <span class="price-was-inline" style="text-decoration: none;">veiledende ${fmt(p.skeidarFørpris)} kr</span>
-        <span class="rrp-badge" title="Skeidar viser veiledende pris (RRP) som referansepris, ikke en faktisk tidligere pris">RRP −${p.skeidarRabatt} %</span>
-      </span>
-    `;
-  }
-  skeidarPriceWrap.innerHTML = priceHtml;
-
-  const link = document.getElementById('skeidar-link');
-  if (p.skeidarUrl) {
-    link.href = p.skeidarUrl;
-    link.style.display = 'inline-flex';
-  } else {
-    link.style.display = 'none';
-  }
-  renderMatchAttributes(p);
-
-  // Position bar
-  // Scale: -10% to +10% mapped to 0%-100%
-  const ownPct = Math.max(0, Math.min(100, (ownVsSkeidar + 10) / 20 * 100));
-  const compPct = 50; // Skeidar always at center (reference)
-  document.getElementById('pos-marker-own').style.left = ownPct + '%';
-  document.getElementById('pos-marker-comp').style.left = compPct + '%';
-
-  // Zone is ±3% around Skeidar
-  const zoneLowPct = (compPct - 3 / 20 * 100);
-  const zoneHighPct = (compPct + 3 / 20 * 100);
-  const zone = document.getElementById('pos-zone');
-  zone.style.left = zoneLowPct + '%';
-  zone.style.width = (zoneHighPct - zoneLowPct) + '%';
-
-  // Status text
-  const inZone = Math.abs(ownVsSkeidar) <= 3;
-  const statusEl = document.getElementById('pos-status');
-  if (inZone) {
-    statusEl.textContent = 'Innenfor regel';
-    statusEl.style.color = 'var(--teal-dark)';
-  } else {
-    statusEl.textContent = ownVsSkeidar > 0 ? 'Over regel — krever handling' : 'Under regel — vurder økning';
-    statusEl.style.color = 'var(--alert)';
-  }
+  renderPositionBar(id, p);
 
   setTimeout(renderChart, 50);
 
@@ -1461,6 +1598,72 @@ function showDetail(id) {
 
 document.getElementById('back-btn').addEventListener('click', showOverview);
 document.getElementById('nav-home').addEventListener('click', showOverview);
+
+function renderPositionBar(productKey, p) {
+  const scalePct = pct => Math.max(0, Math.min(100, (pct + 10) / 20 * 100));
+  const priced = pricedCompetitorRecords(productKey, p);
+  const avgCompetitorPrice = priced.length
+    ? priced.reduce((sum, item) => sum + item.record.price, 0) / priced.length
+    : null;
+
+  const markerOwn = document.getElementById('pos-marker-own');
+  const markerContainer = document.getElementById('pos-competitor-markers');
+  const legend = document.getElementById('pos-bar-legend');
+  markerContainer.innerHTML = '';
+
+  const zone = document.getElementById('pos-zone');
+  const statusEl = document.getElementById('pos-status');
+
+  if (!avgCompetitorPrice) {
+    markerOwn.style.display = 'none';
+    zone.style.left = '0%';
+    zone.style.width = '0%';
+    statusEl.textContent = 'Mangler konkurrentpris';
+    statusEl.style.color = 'var(--text-dim)';
+  } else {
+    const ownVsAvg = gapPct(p.current, avgCompetitorPrice);
+    markerOwn.style.display = 'block';
+    markerOwn.style.left = scalePct(ownVsAvg) + '%';
+
+    // KVI-sonen er ±3 % rundt snittprisen, altså midtpunktet på aksen.
+    const avgPct = 50;
+    const zoneLowPct = avgPct - 3 / 20 * 100;
+    const zoneHighPct = avgPct + 3 / 20 * 100;
+    zone.style.left = zoneLowPct + '%';
+    zone.style.width = (zoneHighPct - zoneLowPct) + '%';
+
+    priced.forEach(item => {
+      const marker = document.createElement('div');
+      const competitorVsAvg = gapPct(item.record.price, avgCompetitorPrice);
+      marker.className = 'pos-marker';
+      marker.style.left = scalePct(competitorVsAvg) + '%';
+      marker.style.background = competitorColor(item.key);
+      marker.title = `${item.competitor?.name || item.record.name}: ${fmtPrice(item.record.price)} (${fmtGap(competitorVsAvg)} mot snitt)`;
+      markerContainer.appendChild(marker);
+    });
+
+    if (Math.abs(ownVsAvg) <= 3) {
+      statusEl.textContent = 'Innenfor regel';
+      statusEl.style.color = 'var(--teal-dark)';
+    } else {
+      statusEl.textContent = ownVsAvg > 0 ? 'Over regel — krever handling' : 'Under regel — vurder økning';
+      statusEl.style.color = 'var(--alert)';
+    }
+  }
+
+  const competitorLegend = getCompetitorList().map(c => {
+    const hasPrice = priced.some(item => item.key === c.key);
+    const inactiveClass = hasPrice ? '' : ' class="inactive"';
+    const label = c.name;
+    return `<span${inactiveClass}><span class="legend-dot" style="background: ${hasPrice ? competitorColor(c.key) : 'var(--border-strong)'};"></span>${label}</span>`;
+  }).join('');
+
+  legend.innerHTML = `
+    <span><span class="legend-dot" style="background: var(--dark);"></span>Bohus</span>
+    ${competitorLegend}
+    <span><span class="legend-dot" style="background: var(--teal-bg);"></span>Innenfor regel</span>
+  `;
+}
 
 // ========== Prissetting ==========
 const fmtGapPct = v => (v >= 0 ? '+' : '−') + Math.abs(v).toFixed(1) + ' %';
@@ -1477,6 +1680,7 @@ const POS_MAKS = 10; // ± %
 // Aktiv pris for valgt produkt. Settes av slidere eller manuell input.
 // Dette er den ENE styringsvariabelen; margin og posisjon er to uttrykk for den.
 let aktivPris = 0;
+let prisForManuellJustering = null;
 
 // Avrunder til ønsket prisslutt (-90 / -95 / -99) på nærmeste hundre.
 function roundToEnding(price, ending) {
@@ -1526,6 +1730,7 @@ function resetPricingBlock(p) {
   document.getElementById('audit').classList.remove('show');
   document.getElementById('manual-box').classList.remove('show');
   document.getElementById('manual-warn').classList.remove('show');
+  prisForManuellJustering = null;
 
   const pr = getPricing(p);
   const rounding = document.getElementById('s-round').value || '90';
@@ -1645,6 +1850,7 @@ function renderResult(price, p, pr) {
 document.getElementById('s-pos').addEventListener('input', () => {
   const p = products[active], pr = getPricing(p);
   document.getElementById('manual-box').classList.remove('show');
+  prisForManuellJustering = null;
   const pos = parseFloat(document.getElementById('s-pos').value);
   const { lav, hoy } = prisGrenser(p, pr);
   const rounding = document.getElementById('s-round').value;
@@ -1661,6 +1867,7 @@ document.getElementById('s-pos').addEventListener('input', () => {
 document.getElementById('s-marg').addEventListener('input', () => {
   const p = products[active], pr = getPricing(p);
   document.getElementById('manual-box').classList.remove('show');
+  prisForManuellJustering = null;
   const sliderPos = parseFloat(document.getElementById('s-marg').value); // 0..100
   const { lav, hoy } = prisGrenser(p, pr);
   const rounding = document.getElementById('s-round').value;
@@ -1673,6 +1880,7 @@ document.getElementById('s-marg').addEventListener('input', () => {
 // ----- Avrunding -----
 document.getElementById('s-round').addEventListener('input', () => {
   const p = products[active], pr = getPricing(p);
+  prisForManuellJustering = null;
   const rounding = document.getElementById('s-round').value;
   aktivPris = roundToEnding(aktivPris, rounding);
   syncFraPris(p, pr);
@@ -1682,8 +1890,13 @@ document.getElementById('s-round').addEventListener('input', () => {
 // ----- Manuell prisinngang -----
 document.getElementById('btn-manual').addEventListener('click', () => {
   const box = document.getElementById('manual-box');
+  if (box.classList.contains('show')) {
+    document.getElementById('btn-manual-cancel').click();
+    return;
+  }
   box.classList.toggle('show');
   if (box.classList.contains('show')) {
+    prisForManuellJustering = aktivPris;
     const inp = document.getElementById('manual-price');
     inp.value = Math.round(aktivPris);
     inp.focus();
@@ -1693,14 +1906,19 @@ document.getElementById('btn-manual').addEventListener('click', () => {
 
 document.getElementById('btn-manual-cancel').addEventListener('click', () => {
   const p = products[active], pr = getPricing(p);
+  if (prisForManuellJustering !== null) {
+    aktivPris = prisForManuellJustering;
+  }
+  prisForManuellJustering = null;
   document.getElementById('manual-box').classList.remove('show');
   document.getElementById('manual-warn').classList.remove('show');
   syncFraPris(p, pr);
   renderResult(aktivPris, p, pr);
 });
 
-// Bruk manuell pris: pris settes direkte, begge slidere synkes, validering kjøres.
-function applyManualPrice() {
+// Forhåndsvis manuell pris: oppdaterer resultatet mens brukeren skriver,
+// men Avbryt kan fortsatt rulle tilbake til prisen som var aktiv før boksen åpnet.
+function previewManualPrice() {
   const p = products[active], pr = getPricing(p);
   const raw = parseFloat(document.getElementById('manual-price').value);
   const warn = document.getElementById('manual-warn');
@@ -1720,8 +1938,17 @@ function applyManualPrice() {
   renderResult(aktivPris, p, pr);
 }
 
+// Bruk manuell pris: bekrefter preview-prisen og lukker boksen.
+function applyManualPrice() {
+  previewManualPrice();
+  if (document.getElementById('btn-approve').disabled) return;
+  prisForManuellJustering = null;
+  document.getElementById('manual-box').classList.remove('show');
+  document.getElementById('manual-warn').classList.remove('show');
+}
+
 document.getElementById('btn-manual-apply').addEventListener('click', applyManualPrice);
-document.getElementById('manual-price').addEventListener('input', applyManualPrice);
+document.getElementById('manual-price').addEventListener('input', previewManualPrice);
 document.getElementById('manual-price').addEventListener('keydown', e => {
   if (e.key === 'Enter') { e.preventDefault(); applyManualPrice(); }
 });
@@ -1790,14 +2017,16 @@ function renderChart() {
 }
 
 // ========== Helpers for overview render ==========
-const KVI_TERSKEL = 3;  // ±3 % av Skeidars pris
+const KVI_TERSKEL = 3;  // ±3 % av konkurrentenes snittpris
 
 function gapClass(gap) {
+  if (gap === null || !Number.isFinite(gap)) return 'none';
   if (Math.abs(gap) <= KVI_TERSKEL) return 'ok';
   return gap > 0 ? 'over' : 'under';
 }
 
 function fmtGap(gap) {
+  if (gap === null || !Number.isFinite(gap)) return '—';
   const sign = gap >= 0 ? '+' : '−';
   return `${sign}${Math.abs(gap).toFixed(1)} %`;
 }
@@ -1807,13 +2036,100 @@ function compClass(bohusPris, skeidarPris) {
   return bohusPris < skeidarPris ? 'higher' : 'lower';
 }
 
+function renderCompetitorControls() {
+  const menu = document.getElementById('competitor-menu');
+  const trigger = document.getElementById('competitor-menu-button');
+  const container = document.getElementById('competitor-options');
+
+  container.innerHTML = '';
+
+  getCompetitorList().forEach(c => {
+    const option = document.createElement('label');
+    option.className = 'competitor-option';
+    option.title = c.hasData ? 'Har prisdata' : 'Ingen prisdata ennå';
+    option.innerHTML = `
+      <input type="checkbox" ${visibleCompetitors.includes(c.key) ? 'checked' : ''} />
+      <span>${c.name}</span>
+      <span class="competitor-option-meta">${c.hasData ? 'data' : 'tom'}</span>
+    `;
+
+    option.querySelector('input').addEventListener('change', () => {
+      if (visibleCompetitors.includes(c.key)) {
+        visibleCompetitors = visibleCompetitors.filter(key => key !== c.key);
+      } else {
+        visibleCompetitors.push(c.key);
+      }
+      saveVisibleCompetitors();
+      renderCompetitorControls();
+      renderProductTable();
+      showOverview();
+    });
+    container.appendChild(option);
+  });
+
+  trigger.onclick = () => {
+    const open = menu.classList.toggle('open');
+    trigger.setAttribute('aria-expanded', String(open));
+  };
+}
+
+function renderMatchedProductsRows(productKey, p) {
+  const container = document.getElementById('matched-products-rows');
+  container.innerHTML = '';
+
+  if (visibleCompetitors.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'match-row';
+    empty.innerHTML = '<div class="match-empty" style="grid-column: 1 / -1;">Ingen konkurrenter er valgt.</div>';
+    container.appendChild(empty);
+    return;
+  }
+
+  visibleCompetitors.forEach(key => {
+    const c = competitors[key];
+    const rec = getCompetitorRecord(productKey, p, key);
+    const row = document.createElement('div');
+    row.className = 'match-row';
+
+    const gap = gapPct(p.current, rec.price);
+    const gapText = fmtGap(gap);
+    const priceClass = Number.isFinite(rec.price) ? compClass(p.current, rec.price) : 'num-na';
+    let priceHtml = Number.isFinite(rec.price)
+      ? `<div class="${priceClass}">${fmtPrice(rec.price)}</div>`
+      : '<div class="num-na">—</div>';
+    if (rec.campaign && rec.beforePrice) {
+      priceHtml += `<div class="price-sub"><span class="price-was-inline">${fmtPrice(rec.beforePrice)}</span> <span class="discount-badge">−${rec.discount} %</span></div>`;
+    } else if (rec.beforePrice && rec.beforePrice > rec.price) {
+      priceHtml += `<div class="price-sub"><span class="rrp-badge" title="Veiledende pris som referansepris">RRP −${rec.discount || 0} %</span></div>`;
+    }
+
+    const modelName = rec.variant || 'Ikke matchet ennå';
+    const supplier = rec.supplier || c?.name || rec.name || '—';
+    const competitorName = c?.name || rec.name;
+    const linkHtml = rec.url
+      ? `<a class="skeidar-link" href="${escapeHtml(rec.url)}" target="_blank" rel="noopener" aria-label="Åpne produkt hos ${escapeHtml(competitorName)}"><i class="ti ti-external-link"></i> Link til produkt</a>`
+      : '<span class="match-empty">—</span>';
+    const matchHtml = rec.matchReason ? matchAttributesMarkup(rec.matchReason) : '<span class="match-empty">Mangler data</span>';
+
+    row.innerHTML = `
+      <div class="comp-name"><i class="ti ti-building-store"></i>${escapeHtml(competitorName)}</div>
+      <div class="match-model">
+        <div class="match-model-name">${escapeHtml(modelName)}</div>
+        <div class="match-model-meta">${escapeHtml(supplier)}</div>
+      </div>
+      <div class="num">${priceHtml}</div>
+      <div class="gap ${gapClass(gap)}">${gapText}</div>
+      <div class="match-attributes">${matchHtml}</div>
+      <div class="match-link-cell">${linkHtml}</div>
+    `;
+    container.appendChild(row);
+  });
+}
+
 // ========== Render match-attributter ==========
 // Parser matchReason-strenger som "form=rett-sofa, pris≈ (1%), 3.0 seter, sjeselong"
 // til lesbare attributt-chips med ikoner.
-function renderMatchAttributes(p) {
-  const container = document.getElementById('match-attributes');
-  container.innerHTML = '';
-
+function matchAttributesMarkup(matchReason) {
   const attrs = [];
   // Form
   const formNavn = {
@@ -1823,7 +2139,8 @@ function renderMatchAttributes(p) {
     'sovesofa': 'Sovesofa',
     'lenestol': 'Lenestol'
   };
-  const formMatch = p.matchReason.match(/form=([\w-]+)/);
+  const reason = matchReason || '';
+  const formMatch = reason.match(/form=([\w-]+)/);
   if (formMatch) {
     attrs.push({
       icon: 'ti-shape',
@@ -1833,7 +2150,7 @@ function renderMatchAttributes(p) {
   }
 
   // Pris-likhet
-  const prisMatch = p.matchReason.match(/pris[≈~]+\s*\((\d+)%\)/);
+  const prisMatch = reason.match(/pris[≈~]+\s*\((\d+)%\)/);
   if (prisMatch) {
     attrs.push({
       icon: 'ti-currency-krone-swedish',
@@ -1843,7 +2160,7 @@ function renderMatchAttributes(p) {
   }
 
   // Antall seter
-  const seterMatch = p.matchReason.match(/([\d.]+)\s*seter/);
+  const seterMatch = reason.match(/([\d.]+)\s*seter/);
   if (seterMatch) {
     const n = parseFloat(seterMatch[1]);
     const display = n % 1 === 0 ? `${n.toFixed(0)} seter` : `${n.toString().replace('.',',')} seter`;
@@ -1855,22 +2172,22 @@ function renderMatchAttributes(p) {
   }
 
   // Sjeselong
-  if (p.matchReason.toLowerCase().includes('sjeselong')) {
+  if (reason.toLowerCase().includes('sjeselong')) {
     attrs.push({ icon: 'ti-check', label: 'Sjeselong', value: 'Ja' });
   }
 
   // XL
-  if (p.matchReason.toLowerCase().includes('xl')) {
+  if (reason.toLowerCase().includes('xl')) {
     attrs.push({ icon: 'ti-check', label: 'XL-størrelse', value: 'Ja' });
   }
 
-  // Render chips
-  attrs.forEach(a => {
-    const chip = document.createElement('span');
-    chip.className = 'match-attr';
-    chip.innerHTML = `<i class="ti ${a.icon}"></i>${a.label}: <strong>${a.value}</strong>`;
-    container.appendChild(chip);
-  });
+  if (attrs.length === 0) return `<span class="match-empty">${escapeHtml(reason || 'Mangler data')}</span>`;
+
+  return attrs.map(a => `
+    <span class="match-attr">
+      <i class="ti ${a.icon}"></i>${escapeHtml(a.label)}: <strong>${escapeHtml(a.value)}</strong>
+    </span>
+  `).join('');
 }
 
 // ========== Render KPI cards ==========
@@ -1878,37 +2195,63 @@ function renderKPI() {
   const entries = Object.values(products);
   const n = entries.length;
   const snittGap = entries.reduce((sum, p) => sum + p.gapPct, 0) / n;
-  const overRegel = entries.filter(p => Math.abs(p.gapPct) > KVI_TERSKEL).length;
 
   document.getElementById('kpi-total').textContent = n;
-  document.getElementById('kpi-total-sub').textContent = 'sofa-pilot · skalerer til ~150 KVI';
-
-  document.getElementById('kpi-match').textContent = `${n} / ${n}`;
-  document.getElementById('kpi-match-sub').textContent = '100 % matchet mot Skeidar';
-
-  const posEl = document.getElementById('kpi-pos');
-  posEl.textContent = fmtGap(snittGap);
-  document.getElementById('kpi-pos-sub').textContent = snittGap >= 0 ? 'over Skeidar i snitt' : 'under Skeidar i snitt';
-  document.getElementById('kpi-pos-sub').className = 'kpi-sub ' + (snittGap > KVI_TERSKEL ? 'alert' : 'good');
-
-  document.getElementById('kpi-over').textContent = overRegel;
-  document.getElementById('kpi-over-sub').textContent = `produkt${overRegel === 1 ? '' : 'er'} utenfor ±${KVI_TERSKEL} % sone`;
+  document.getElementById('kpi-pos').textContent = fmtGap(snittGap);
 }
 
 // ========== Render product table ==========
 function renderProductTable() {
   const container = document.getElementById('product-table');
+  const searchEl = document.getElementById('product-search');
+  const query = searchEl ? searchEl.value.trim().toLowerCase() : '';
+  const header = container.querySelector('.table-row.header');
+  const columns = ['2.2fr', '1fr', ...visibleCompetitors.map(() => '0.9fr'), '180px'];
+  container.style.setProperty('--product-table-cols', columns.join(' '));
+  header.innerHTML = `
+    <div>Produkt</div>
+    <div style="text-align:right">Bohus</div>
+    ${visibleCompetitors.map(key => `<div style="text-align:right">${competitors[key]?.name || key}</div>`).join('')}
+    <div style="text-align:right">Handling</div>
+  `;
+
   // Behold header-raden, fjern resten
-  const rows = container.querySelectorAll('.table-row:not(.header)');
+  const rows = container.querySelectorAll('.table-row:not(.header), .empty-row');
   rows.forEach(r => r.remove());
 
-  Object.entries(products).forEach(([key, p]) => {
+  const entries = Object.entries(products).filter(([key, p]) => {
+    if (!query) return true;
+    const competitorText = visibleCompetitors.map(competitorKey => {
+      const rec = getCompetitorRecord(key, p, competitorKey);
+      return [competitors[competitorKey]?.name, rec.variant, rec.supplier, rec.matchReason].filter(Boolean).join(' ');
+    }).join(' ');
+    const searchable = [
+      key,
+      p.name,
+      p.category,
+      p.matchReason,
+      competitorText
+    ].filter(Boolean).join(' ').toLowerCase();
+    return searchable.includes(query);
+  });
+
+  document.getElementById('product-count-meta').textContent =
+    query
+      ? `${entries.length} av ${Object.keys(products).length} produkter`
+      : `${Object.keys(products).length} produkter`;
+
+  if (entries.length === 0) {
+    const empty = document.createElement('div');
+    empty.className = 'empty-row';
+    empty.textContent = `Ingen produkter matcher "${searchEl.value.trim()}".`;
+    container.appendChild(empty);
+    return;
+  }
+
+  entries.forEach(([key, p]) => {
     const row = document.createElement('div');
     row.className = 'table-row';
     row.dataset.product = key;
-
-    const cc = compClass(p.current, p.skeidarPrice);
-    const gc = gapClass(p.gapPct);
 
     // Bohus-pris med eventuell rabatt-info
     let bohusPrisHtml = `<div class="num num-bold">${fmt(p.current)}</div>`;
@@ -1928,11 +2271,10 @@ function renderProductTable() {
         <div class="product-meta">${p.category} · ${p.varianter} tekstil${p.varianter === 1 ? '' : 'er'}</div>
       </div>
       ${bohusPrisHtml}
-      <div class="num num-comp ${cc}">${fmt(p.skeidarPrice)}</div>
-      <div class="gap ${gc}">${fmtGap(p.gapPct)}</div>
+      ${visibleCompetitors.map(competitorKey => renderCompetitorCell(key, p, competitorKey)).join('')}
       <div class="row-action-cell">
         <button class="row-action" type="button">
-          <i class="ti ti-adjustments-horizontal"></i> Se og endre pris
+          <i class="ti ti-adjustments-horizontal"></i> Endre pris
         </button>
       </div>
     `;
@@ -1948,6 +2290,15 @@ function renderFilters() {
   if (el) el.textContent = `Sofa ${sofaCount}`;
   // Senger / Madrasser / Stoler er disabled inntil videre data legges til
 }
+
+document.getElementById('product-search').addEventListener('input', renderProductTable);
+document.addEventListener('click', e => {
+  const menu = document.getElementById('competitor-menu');
+  if (menu && !menu.contains(e.target)) {
+    menu.classList.remove('open');
+    document.getElementById('competitor-menu-button').setAttribute('aria-expanded', 'false');
+  }
+});
 
 // ========== Render activity feed ==========
 // Henter de mest interessante prisendringene fra historikken
@@ -2061,11 +2412,44 @@ async function init() {
   // I produksjon kobles dette mot ERP/innkjøpssystem (innkjøpspris) og
   // leverandøravtaler (leverandørgulv) i stedet for en statisk fil.
   await loadPricingData();
+  await loadCompetitorData();
 
   renderKPI();
+  renderCompetitorControls();
   renderProductTable();
   renderFilters();
   renderActivityFeed();
+}
+
+// ========== Konkurrent-data ==========
+async function loadCompetitorData() {
+  const defaultCompetitors = {
+    skeidar: { name: 'Skeidar', enabled: true, hasData: true },
+    fagmobler: { name: 'Fagmøbler', enabled: false, hasData: false },
+    mobelringen: { name: 'Møbelringen', enabled: false, hasData: false },
+    jysk: { name: 'JYSK', enabled: false, hasData: false },
+    amobler: { name: 'A-møbler', enabled: false, hasData: false }
+  };
+
+  try {
+    const res = await fetch('competitors.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    competitors = await res.json();
+  } catch (err) {
+    competitors = defaultCompetitors;
+    console.warn('competitors.json ikke lastet, bruker standardliste:', err.message);
+  }
+
+  try {
+    const res = await fetch('competitor_prices.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    competitorPrices = await res.json();
+  } catch (err) {
+    competitorPrices = {};
+    console.warn('competitor_prices.json ikke lastet, tomme konkurrentpriser:', err.message);
+  }
+
+  loadVisibleCompetitors();
 }
 
 // ========== Prissetting-data ==========

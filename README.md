@@ -13,7 +13,9 @@ bohus-pilot/
 │   └── match.py                Matching-pipeline (Python)
 ├── public/                     Frontend
 │   ├── index.html              Prototypen
-│   └── products.json           Genereres av pipelinen
+│   ├── products.json           Genereres av pipelinen
+│   ├── competitors.json        Konkurrenter som kan vises/skjules i UI
+│   └── competitor_prices.json  Plass for fremtidige priser fra andre konkurrenter
 ├── requirements.txt
 └── vercel.json
 ```
@@ -25,6 +27,8 @@ bohus-pilot/
 **Endre matching-logikk (terskler, scoring, attributter):** rediger `pipeline/match.py`. Konstanter ligger på toppen.
 
 **Endre UI:** rediger `public/index.html`. Alt er én fil (HTML + CSS + JS).
+
+**Endre konkurrenter:** rediger `public/competitors.json`. Fremtidige priser fra Fagmøbler, Møbelringen, JYSK og A-møbler kan legges i `public/competitor_prices.json`.
 
 Etter endring i data eller pipeline: kjør `python pipeline/match.py` for å regenerere `public/products.json`.
 

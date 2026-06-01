@@ -1,0 +1,27 @@
+{
+  "skeidar": {
+    "name": "Skeidar",
+    "enabled": true,
+    "hasData": true
+  },
+  "fagmobler": {
+    "name": "Fagmøbler",
+    "enabled": false,
+    "hasData": false
+  },
+  "mobelringen": {
+    "name": "Møbelringen",
+    "enabled": false,
+    "hasData": false
+  },
+  "jysk": {
+    "name": "JYSK",
+    "enabled": false,
+    "hasData": false
+  },
+  "amobler": {
+    "name": "A-møbler",
+    "enabled": false,
+    "hasData": false
+  }
+}
